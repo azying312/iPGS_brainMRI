@@ -1,0 +1,49 @@
+[1] "fullargs: /home/az109/miniconda3/envs/my-snpnet-environment/lib/R/bin/exec/R"            
+[2] "fullargs: --no-echo"                                                                     
+[3] "fullargs: --no-restore"                                                                  
+[4] "fullargs: --file=/home/az109/urop_proj/ukb21942/pheno/05_brain_mri/2_define_phenotypes.R"
+[1] "args: "
+[1] "script name: /net/bmc-lab4/data/kellis/users/az109/ukb21942/pheno/05_brain_mri/2_define_phenotypes.R"
+[1] "dir name: /net/bmc-lab4/data/kellis/users/az109/ukb21942/pheno/05_brain_mri"
+[1] "output files"
+[1] "phe_f: /net/bmc-lab4/data/kellis/users/az109/ukb21942/pheno/brain_mri.tsv.gz"
+[1] "phe_long_f: /net/bmc-lab4/data/kellis/users/az109/ukb21942/pheno/brain_mri.long.tsv.gz"
+[1] "phe_counts_f: /net/bmc-lab4/data/kellis/users/az109/ukb21942/pheno/brain_mri.counts.tsv.gz"
+[1] "fields_df"
+   Field ID                                           Description Short_Name
+1:    25056  Mean FA in middle cerebellar peduncle on FA skeleton         NA
+2:    25057      Mean FA in pontine crossing tract on FA skeleton         NA
+3:    25058     Mean FA in genu of corpus callosum on FA skeleton         NA
+4:    25059     Mean FA in body of corpus callosum on FA skeleton         NA
+5:    25060 Mean FA in splenium of corpus callosum on FA skeleton         NA
+6:    25061                      Mean FA in fornix on FA skeleton         NA
+   Category       Category_Name
+1:       NA Diffusion_brain_MRI
+2:       NA Diffusion_brain_MRI
+3:       NA Diffusion_brain_MRI
+4:       NA Diffusion_brain_MRI
+5:       NA Diffusion_brain_MRI
+6:       NA Diffusion_brain_MRI
+[1] "field_names_df"
+     GBE_ID                                              GBE_NAME Short_Name
+1: INI25056  Mean FA in middle cerebellar peduncle on FA skeleton         NA
+2: INI25057      Mean FA in pontine crossing tract on FA skeleton         NA
+3: INI25058     Mean FA in genu of corpus callosum on FA skeleton         NA
+4: INI25059     Mean FA in body of corpus callosum on FA skeleton         NA
+5: INI25060 Mean FA in splenium of corpus callosum on FA skeleton         NA
+6: INI25061                      Mean FA in fornix on FA skeleton         NA
+   Category       Category_Name
+1:       NA Diffusion_brain_MRI
+2:       NA Diffusion_brain_MRI
+3:       NA Diffusion_brain_MRI
+4:       NA Diffusion_brain_MRI
+5:       NA Diffusion_brain_MRI
+6:       NA Diffusion_brain_MRI
+                                          GBE_short_name
+1:  Mean FA in middle cerebellar peduncle on FA skeleton
+2:      Mean FA in pontine crossing tract on FA skeleton
+3:     Mean FA in genu of corpus callosum on FA skeleton
+4:     Mean FA in body of corpus callosum on FA skeleton
+5: Mean FA in splenium of corpus callosum on FA skeleton
+6:                      Mean FA in fornix on FA skeleton
+slurmstepd: error: *** JOB 9607881 ON b3 CANCELLED AT 2024-10-25T14:30:01 ***

@@ -1,0 +1,12 @@
+Field ID	Description	Short_Name	Category	Category_Name
+25890	Volume of grey matter in Ventral Striatum (left)		1101	T1 Structural brain MRI, Regional grey matter volumes (FAST)
+25829	Volume of grey matter in Intracalcarine Cortex (right)		1101	T1 Structural brain MRI, Regional grey matter volumes (FAST)
+25902	Volume of grey matter in Crus I Cerebellum (right)		1101	T1 Structural brain MRI, Regional grey matter volumes (FAST)
+25828	Volume of grey matter in Intracalcarine Cortex (left)		1101	T1 Structural brain MRI, Regional grey matter volumes (FAST)
+25883	Vol. of grey matter in Putamen (R)		1101	T1 Structural brain MRI, Regional grey matter volumes (FAST)
+25882	Vol. of grey matter in Putamen (L)		1101	T1 Structural brain MRI, Regional grey matter volumes (FAST)
+25905	Vol. of grey matter in Crus II Cerebellum (R)		1101	T1 Structural brain MRI, Regional grey matter volumes (FAST)
+25886	Vol. of grey matter in Hippocampus (L)		1101	T1 Structural brain MRI, Regional grey matter volumes (FAST)
+25913	Vol. of grey matter in Vermis VIIIb Cerebellum		1101	T1 Structural brain MRI, Regional grey matter volumes (FAST)
+25014	Vol. of caudate (R)		1102	T1 Structural brain MRI, Subcortical volumes (FIRST)
+25781	Total vol. of white matter hyperintensities (from T1 and T2 FLAIR images)		1102	T2-weighted brain MRI

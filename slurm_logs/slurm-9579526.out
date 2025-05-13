@@ -1,0 +1,794 @@
+[1] "fullargs: /home/az109/miniconda3/envs/my-snpnet-environment/lib/R/bin/exec/R"            
+[2] "fullargs: --no-echo"                                                                     
+[3] "fullargs: --no-restore"                                                                  
+[4] "fullargs: --file=/home/az109/urop_proj/ukb21942/pheno/05_brain_mri/2_define_phenotypes.R"
+[1] "args: "
+[1] "script name: /net/bmc-lab4/data/kellis/users/az109/ukb21942/pheno/05_brain_mri/2_define_phenotypes.R"
+[1] "dir name: /net/bmc-lab4/data/kellis/users/az109/ukb21942/pheno/05_brain_mri"
+[1] "output files"
+[1] "phe_f: /net/bmc-lab4/data/kellis/users/az109/ukb21942/pheno/brain_mri.tsv.gz"
+[1] "phe_long_f: /net/bmc-lab4/data/kellis/users/az109/ukb21942/pheno/brain_mri.long.tsv.gz"
+[1] "phe_counts_f: /net/bmc-lab4/data/kellis/users/az109/ukb21942/pheno/brain_mri.counts.tsv.gz"
+[1] "fields_df"
+   Field ID                                           Description Short_Name
+1:    25056  Mean FA in middle cerebellar peduncle on FA skeleton         NA
+2:    25057      Mean FA in pontine crossing tract on FA skeleton         NA
+3:    25058     Mean FA in genu of corpus callosum on FA skeleton         NA
+4:    25059     Mean FA in body of corpus callosum on FA skeleton         NA
+5:    25060 Mean FA in splenium of corpus callosum on FA skeleton         NA
+6:    25061                      Mean FA in fornix on FA skeleton         NA
+   Category       Category_Name
+1:       NA Diffusion_brain_MRI
+2:       NA Diffusion_brain_MRI
+3:       NA Diffusion_brain_MRI
+4:       NA Diffusion_brain_MRI
+5:       NA Diffusion_brain_MRI
+6:       NA Diffusion_brain_MRI
+[1] "field_names_df"
+     GBE_ID                                              GBE_NAME Short_Name
+1: INI25056  Mean FA in middle cerebellar peduncle on FA skeleton         NA
+2: INI25057      Mean FA in pontine crossing tract on FA skeleton         NA
+3: INI25058     Mean FA in genu of corpus callosum on FA skeleton         NA
+4: INI25059     Mean FA in body of corpus callosum on FA skeleton         NA
+5: INI25060 Mean FA in splenium of corpus callosum on FA skeleton         NA
+6: INI25061                      Mean FA in fornix on FA skeleton         NA
+   Category       Category_Name
+1:       NA Diffusion_brain_MRI
+2:       NA Diffusion_brain_MRI
+3:       NA Diffusion_brain_MRI
+4:       NA Diffusion_brain_MRI
+5:       NA Diffusion_brain_MRI
+6:       NA Diffusion_brain_MRI
+                                          GBE_short_name
+1:  Mean FA in middle cerebellar peduncle on FA skeleton
+2:      Mean FA in pontine crossing tract on FA skeleton
+3:     Mean FA in genu of corpus callosum on FA skeleton
+4:     Mean FA in body of corpus callosum on FA skeleton
+5: Mean FA in splenium of corpus callosum on FA skeleton
+6:                      Mean FA in fornix on FA skeleton
+   value < 0        n
+1:     FALSE 21663877
+2:      TRUE        7
+   array        n
+1:     0 21663884
+[1] "phe_long_df"
+# A tibble: 19,668,122 × 4
+   FID     IID     GBE_ID   value
+   <chr>   <chr>   <fct>    <dbl>
+ 1 1000044 1000044 INI25000  1.12
+ 2 1000289 1000289 INI25000  1.34
+ 3 1000457 1000457 INI25000  1.60
+ 4 1000537 1000537 INI25000  1.46
+ 5 1000703 1000703 INI25000  1.17
+ 6 1000742 1000742 INI25000  1.28
+ 7 1000756 1000756 INI25000  1.23
+ 8 1000881 1000881 INI25000  1.26
+ 9 1000890 1000890 INI25000  1.50
+10 1001115 1001115 INI25000  1.25
+# … with 19,668,112 more rows
+[1] "phe_wide_df"
+            FID     IID INI25000 INI25001 INI25002 INI25003 INI25004 INI25005
+     1:      -1      -1       NA       NA       NA       NA       NA       NA
+     2:      -2      -2       NA       NA       NA       NA       NA       NA
+     3:      -3      -3       NA       NA       NA       NA       NA       NA
+     4:      -4      -4       NA       NA       NA       NA       NA       NA
+     5:      -5      -5       NA       NA       NA       NA       NA       NA
+    ---                                                                      
+488373: 6026376 6026376  1.33074   629261   472863  38752.6  29121.0   822430
+488374: 6026389 6026389  1.35526   538232   397144  88383.5  65215.4   709385
+488375: 6026393 6026393       NA       NA       NA       NA       NA       NA
+488376: 6026407 6026407       NA       NA       NA       NA       NA       NA
+488377: 6026419 6026419       NA       NA       NA       NA       NA       NA
+        INI25006 INI25007 INI25008 INI25009 INI25010 INI25011 INI25012 INI25013
+     1:       NA       NA       NA       NA       NA       NA       NA       NA
+     2:       NA       NA       NA       NA       NA       NA       NA       NA
+     3:       NA       NA       NA       NA       NA       NA       NA       NA
+     4:       NA       NA       NA       NA       NA       NA       NA       NA
+     5:       NA       NA       NA       NA       NA       NA       NA       NA
+    ---                                                                        
+488373:   618023   665738   500275  1488170  1118300     7510     5994     3209
+488374:   523432   675446   498390  1384830  1021820     7245     7447     3190
+488375:       NA       NA       NA       NA       NA       NA       NA       NA
+488376:       NA       NA       NA       NA       NA       NA       NA       NA
+488377:       NA       NA       NA       NA       NA       NA       NA       NA
+        INI25015 INI25016 INI25017 INI25018 INI25019 INI25021 INI25022 INI25023
+     1:       NA       NA       NA       NA       NA       NA       NA       NA
+     2:       NA       NA       NA       NA       NA       NA       NA       NA
+     3:       NA       NA       NA       NA       NA       NA       NA       NA
+     4:       NA       NA       NA       NA       NA       NA       NA       NA
+     5:       NA       NA       NA       NA       NA       NA       NA       NA
+    ---                                                                        
+488373:     4648     4216     1730     1252     3882      942      666      544
+488374:     4451     4436     1529     1379     3065     1432     1376      257
+488375:       NA       NA       NA       NA       NA       NA       NA       NA
+488376:       NA       NA       NA       NA       NA       NA       NA       NA
+488377:       NA       NA       NA       NA       NA       NA       NA       NA
+        INI25024 INI25025 INI25026 INI25027 INI25028 INI25029 INI25030 INI25031
+     1:       NA       NA       NA       NA       NA       NA       NA       NA
+     2:       NA       NA       NA       NA       NA       NA       NA       NA
+     3:       NA       NA       NA       NA       NA       NA       NA       NA
+     4:       NA       NA       NA       NA       NA       NA       NA       NA
+     5:       NA       NA       NA       NA       NA       NA       NA       NA
+    ---                                                                        
+488373:      276    21465  48.1832  47.0521  46.4052  46.6085  39.9990  39.6855
+488374:      292    24064  47.3104  47.1613  41.1968  41.3584  38.9792  35.6752
+488375:       NA       NA       NA       NA       NA       NA       NA       NA
+488376:       NA       NA       NA       NA       NA       NA       NA       NA
+488377:       NA       NA       NA       NA       NA       NA       NA       NA
+        INI25032 INI25033 INI25034 INI25036 INI25037 INI25039 INI25056 INI25057
+     1:       NA       NA       NA       NA       NA       NA       NA       NA
+     2:       NA       NA       NA       NA       NA       NA       NA       NA
+     3:       NA       NA       NA       NA       NA       NA       NA       NA
+     4:       NA       NA       NA       NA       NA       NA       NA       NA
+     5:       NA       NA       NA       NA       NA       NA       NA       NA
+    ---                                                                        
+488373:  28.2073  25.4599  51.6500  55.2258  53.3804  45.2364 0.552002 0.426064
+488374:  27.4930  26.6916  45.9017  46.4857  46.6568  45.9780 0.580695 0.435689
+488375:       NA       NA       NA       NA       NA       NA       NA       NA
+488376:       NA       NA       NA       NA       NA       NA       NA       NA
+488377:       NA       NA       NA       NA       NA       NA       NA       NA
+        INI25058 INI25059 INI25060 INI25061 INI25062 INI25063 INI25064 INI25066
+     1:       NA       NA       NA       NA       NA       NA       NA       NA
+     2:       NA       NA       NA       NA       NA       NA       NA       NA
+     3:       NA       NA       NA       NA       NA       NA       NA       NA
+     4:       NA       NA       NA       NA       NA       NA       NA       NA
+     5:       NA       NA       NA       NA       NA       NA       NA       NA
+    ---                                                                        
+488373:  0.78271 0.749808 0.814381 0.456296 0.506517 0.538690 0.630475 0.584494
+488374:  0.66588 0.709143 0.786508 0.303017 0.539082 0.545026 0.607484 0.584034
+488375:       NA       NA       NA       NA       NA       NA       NA       NA
+488376:       NA       NA       NA       NA       NA       NA       NA       NA
+488377:       NA       NA       NA       NA       NA       NA       NA       NA
+        INI25067 INI25068 INI25069 INI25071 INI25072 INI25073 INI25074 INI25075
+     1:       NA       NA       NA       NA       NA       NA       NA       NA
+     2:       NA       NA       NA       NA       NA       NA       NA       NA
+     3:       NA       NA       NA       NA       NA       NA       NA       NA
+     4:       NA       NA       NA       NA       NA       NA       NA       NA
+     5:       NA       NA       NA       NA       NA       NA       NA       NA
+    ---                                                                        
+488373: 0.573031 0.716146 0.706918 0.725520 0.657673 0.643615 0.727085 0.726295
+488374: 0.566708 0.698422 0.715868 0.713693 0.610000 0.609867 0.702854 0.703365
+488375:       NA       NA       NA       NA       NA       NA       NA       NA
+488376:       NA       NA       NA       NA       NA       NA       NA       NA
+488377:       NA       NA       NA       NA       NA       NA       NA       NA
+        INI25076 INI25077 INI25078 INI25079 INI25080 INI25081 INI25083 INI25084
+     1:       NA       NA       NA       NA       NA       NA       NA       NA
+     2:       NA       NA       NA       NA       NA       NA       NA       NA
+     3:       NA       NA       NA       NA       NA       NA       NA       NA
+     4:       NA       NA       NA       NA       NA       NA       NA       NA
+     5:       NA       NA       NA       NA       NA       NA       NA       NA
+    ---                                                                        
+488373: 0.582835 0.636776 0.511308 0.493707 0.547691 0.542345 0.510210 0.577314
+488374: 0.615791 0.660852 0.440995 0.431240 0.525662 0.507429 0.507974 0.628457
+488375:       NA       NA       NA       NA       NA       NA       NA       NA
+488376:       NA       NA       NA       NA       NA       NA       NA       NA
+488377:       NA       NA       NA       NA       NA       NA       NA       NA
+        INI25085 INI25086 INI25087 INI25088 INI25089 INI25090 INI25091 INI25092
+     1:       NA       NA       NA       NA       NA       NA       NA       NA
+     2:       NA       NA       NA       NA       NA       NA       NA       NA
+     3:       NA       NA       NA       NA       NA       NA       NA       NA
+     4:       NA       NA       NA       NA       NA       NA       NA       NA
+     5:       NA       NA       NA       NA       NA       NA       NA       NA
+    ---                                                                        
+488373: 0.677300 0.538946 0.621207 0.473128 0.502152 0.621824 0.677169 0.468991
+488374: 0.628809 0.578421 0.608007 0.452381 0.445970 0.549097 0.619165 0.484365
+488375:       NA       NA       NA       NA       NA       NA       NA       NA
+488376:       NA       NA       NA       NA       NA       NA       NA       NA
+488377:       NA       NA       NA       NA       NA       NA       NA       NA
+        INI25093 INI25094 INI25096 INI25097 INI25098 INI25099 INI25100 INI25101
+     1:       NA       NA       NA       NA       NA       NA       NA       NA
+     2:       NA       NA       NA       NA       NA       NA       NA       NA
+     3:       NA       NA       NA       NA       NA       NA       NA       NA
+     4:       NA       NA       NA       NA       NA       NA       NA       NA
+     5:       NA       NA       NA       NA       NA       NA       NA       NA
+    ---                                                                        
+488373: 0.499259 0.481180 0.571304  0.58034 0.499560 0.522492 0.587385 0.606566
+488374: 0.457484 0.497929 0.539972  0.55664 0.399498 0.472439 0.518458 0.489279
+488375:       NA       NA       NA       NA       NA       NA       NA       NA
+488376:       NA       NA       NA       NA       NA       NA       NA       NA
+488377:       NA       NA       NA       NA       NA       NA       NA       NA
+        INI25102 INI25103 INI25344 INI25345 INI25346 INI25347 INI25349 INI25350
+     1:       NA       NA       NA       NA       NA       NA       NA       NA
+     2:       NA       NA       NA       NA       NA       NA       NA       NA
+     3:       NA       NA       NA       NA       NA       NA       NA       NA
+     4:       NA       NA       NA       NA       NA       NA       NA       NA
+     5:       NA       NA       NA       NA       NA       NA       NA       NA
+    ---                                                                        
+488373: 0.627304 0.648159 0.754660 0.665065 0.680372 0.703815 0.582871 0.645105
+488374: 0.445587 0.460900 0.780109 0.726452 0.646229 0.700504 0.455028 0.753263
+488375:       NA       NA       NA       NA       NA       NA       NA       NA
+488376:       NA       NA       NA       NA       NA       NA       NA       NA
+488377:       NA       NA       NA       NA       NA       NA       NA       NA
+        INI25351 INI25352 INI25353 INI25354 INI25355 INI25356 INI25357 INI25358
+     1:       NA       NA       NA       NA       NA       NA       NA       NA
+     2:       NA       NA       NA       NA       NA       NA       NA       NA
+     3:       NA       NA       NA       NA       NA       NA       NA       NA
+     4:       NA       NA       NA       NA       NA       NA       NA       NA
+     5:       NA       NA       NA       NA       NA       NA       NA       NA
+    ---                                                                        
+488373: 0.656627 0.615632 0.599139 0.668956 0.674318 0.710904 0.683429 0.758105
+488374: 0.746025 0.657034 0.667892 0.683800 0.677585 0.727740 0.721624 0.775822
+488375:       NA       NA       NA       NA       NA       NA       NA       NA
+488376:       NA       NA       NA       NA       NA       NA       NA       NA
+488377:       NA       NA       NA       NA       NA       NA       NA       NA
+        INI25359 INI25360 INI25361 INI25362 INI25363 INI25364 INI25365 INI25366
+     1:       NA       NA       NA       NA       NA       NA       NA       NA
+     2:       NA       NA       NA       NA       NA       NA       NA       NA
+     3:       NA       NA       NA       NA       NA       NA       NA       NA
+     4:       NA       NA       NA       NA       NA       NA       NA       NA
+     5:       NA       NA       NA       NA       NA       NA       NA       NA
+    ---                                                                        
+488373: 0.757877 0.673184 0.669393 0.719926 0.762803 0.587064 0.624855 0.619158
+488374: 0.767701 0.687574 0.685895 0.741315 0.765597 0.634059 0.647831 0.571141
+488375:       NA       NA       NA       NA       NA       NA       NA       NA
+488376:       NA       NA       NA       NA       NA       NA       NA       NA
+488377:       NA       NA       NA       NA       NA       NA       NA       NA
+        INI25367 INI25368 INI25369 INI25370 INI25371 INI25372 INI25373 INI25374
+     1:       NA       NA       NA       NA       NA       NA       NA       NA
+     2:       NA       NA       NA       NA       NA       NA       NA       NA
+     3:       NA       NA       NA       NA       NA       NA       NA       NA
+     4:       NA       NA       NA       NA       NA       NA       NA       NA
+     5:       NA       NA       NA       NA       NA       NA       NA       NA
+    ---                                                                        
+488373: 0.631726  0.66610 0.682465 0.564027 0.579396 0.526087 0.600889 0.534083
+488374: 0.561295  0.67779 0.658097 0.571745 0.598577 0.602576 0.586037 0.565606
+488375:       NA       NA       NA       NA       NA       NA       NA       NA
+488376:       NA       NA       NA       NA       NA       NA       NA       NA
+488377:       NA       NA       NA       NA       NA       NA       NA       NA
+        INI25375 INI25376 INI25377 INI25378 INI25379 INI25380 INI25381 INI25382
+     1:       NA       NA       NA       NA       NA       NA       NA       NA
+     2:       NA       NA       NA       NA       NA       NA       NA       NA
+     3:       NA       NA       NA       NA       NA       NA       NA       NA
+     4:       NA       NA       NA       NA       NA       NA       NA       NA
+     5:       NA       NA       NA       NA       NA       NA       NA       NA
+    ---                                                                        
+488373: 0.594396 0.534899 0.536100 0.626248 0.665201 0.497954 0.498605 0.521914
+488374: 0.564721 0.501410 0.505255 0.568776 0.612514 0.511707 0.517026 0.633751
+488375:       NA       NA       NA       NA       NA       NA       NA       NA
+488376:       NA       NA       NA       NA       NA       NA       NA       NA
+488377:       NA       NA       NA       NA       NA       NA       NA       NA
+        INI25383 INI25384 INI25385 INI25386 INI25387 INI25388 INI25389 INI25391
+     1:       NA       NA       NA       NA       NA       NA       NA       NA
+     2:       NA       NA       NA       NA       NA       NA       NA       NA
+     3:       NA       NA       NA       NA       NA       NA       NA       NA
+     4:       NA       NA       NA       NA       NA       NA       NA       NA
+     5:       NA       NA       NA       NA       NA       NA       NA       NA
+    ---                                                                        
+488373: 0.595314  0.69212 0.698412 0.637036 0.672726 0.538427 0.547021 0.560741
+488374: 0.634010  0.67945 0.704514 0.474518 0.558494 0.496130 0.486899 0.479159
+488375:       NA       NA       NA       NA       NA       NA       NA       NA
+488376:       NA       NA       NA       NA       NA       NA       NA       NA
+488377:       NA       NA       NA       NA       NA       NA       NA       NA
+        INI25440 INI25441 INI25443 INI25445 INI25446 INI25447 INI25451 INI25452
+     1:       NA       NA       NA       NA       NA       NA       NA       NA
+     2:       NA       NA       NA       NA       NA       NA       NA       NA
+     3:       NA       NA       NA       NA       NA       NA       NA       NA
+     4:       NA       NA       NA       NA       NA       NA       NA       NA
+     5:       NA       NA       NA       NA       NA       NA       NA       NA
+    ---                                                                        
+488373: 0.092855 0.141848 0.090393 0.539050 0.145451 0.136513 0.068318 0.127963
+488374: 0.101532 0.121773 0.138965 0.766325 0.129013 0.140002 0.075953 0.157523
+488375:       NA       NA       NA       NA       NA       NA       NA       NA
+488376:       NA       NA       NA       NA       NA       NA       NA       NA
+488377:       NA       NA       NA       NA       NA       NA       NA       NA
+        INI25453 INI25457 INI25458 INI25460 INI25461 INI25462 INI25463 INI25464
+     1:       NA       NA       NA       NA       NA       NA       NA       NA
+     2:       NA       NA       NA       NA       NA       NA       NA       NA
+     3:       NA       NA       NA       NA       NA       NA       NA       NA
+     4:       NA       NA       NA       NA       NA       NA       NA       NA
+     5:       NA       NA       NA       NA       NA       NA       NA       NA
+    ---                                                                        
+488373: 0.109970 0.050020 0.073831 0.061048 0.074729 0.061517 0.065522 0.074247
+488374: 0.145358 0.092404 0.103969 0.105266 0.081048 0.064228 0.080829 0.105756
+488375:       NA       NA       NA       NA       NA       NA       NA       NA
+488376:       NA       NA       NA       NA       NA       NA       NA       NA
+488377:       NA       NA       NA       NA       NA       NA       NA       NA
+        INI25465 INI25467 INI25469 INI25470 INI25471 INI25473 INI25474 INI25475
+     1:       NA       NA       NA       NA       NA       NA       NA       NA
+     2:       NA       NA       NA       NA       NA       NA       NA       NA
+     3:       NA       NA       NA       NA       NA       NA       NA       NA
+     4:       NA       NA       NA       NA       NA       NA       NA       NA
+     5:       NA       NA       NA       NA       NA       NA       NA       NA
+    ---                                                                        
+488373: 0.069621 0.075628 0.071007 0.069395 0.055074 0.021752 0.065614 0.065623
+488374: 0.097527 0.077577 0.092556 0.077299 0.050922 0.031994 0.039098 0.054393
+488375:       NA       NA       NA       NA       NA       NA       NA       NA
+488376:       NA       NA       NA       NA       NA       NA       NA       NA
+488377:       NA       NA       NA       NA       NA       NA       NA       NA
+        INI25482 INI25483 INI25488 INI25489 INI25490 INI25491 INI25492 INI25493
+     1:       NA       NA       NA       NA       NA       NA       NA       NA
+     2:       NA       NA       NA       NA       NA       NA       NA       NA
+     3:       NA       NA       NA       NA       NA       NA       NA       NA
+     4:       NA       NA       NA       NA       NA       NA       NA       NA
+     5:       NA       NA       NA       NA       NA       NA       NA       NA
+    ---                                                                        
+488373: 0.048248 0.039157 0.444616 0.437496 0.420687 0.410069 0.593570 0.546315
+488374: 0.086580 0.078467 0.455852 0.438841 0.412408 0.408253 0.538825 0.509254
+488375:       NA       NA       NA       NA       NA       NA       NA       NA
+488376:       NA       NA       NA       NA       NA       NA       NA       NA
+488377:       NA       NA       NA       NA       NA       NA       NA       NA
+        INI25495 INI25497 INI25498 INI25499 INI25500 INI25501 INI25502 INI25503
+     1:       NA       NA       NA       NA       NA       NA       NA       NA
+     2:       NA       NA       NA       NA       NA       NA       NA       NA
+     3:       NA       NA       NA       NA       NA       NA       NA       NA
+     4:       NA       NA       NA       NA       NA       NA       NA       NA
+     5:       NA       NA       NA       NA       NA       NA       NA       NA
+    ---                                                                        
+488373: 0.321711 0.581776 0.603112 0.503787 0.515864 0.477380 0.501817 0.442718
+488374: 0.310558 0.566850 0.587825 0.457826 0.490329 0.490283 0.478840 0.477061
+488375:       NA       NA       NA       NA       NA       NA       NA       NA
+488376:       NA       NA       NA       NA       NA       NA       NA       NA
+488377:       NA       NA       NA       NA       NA       NA       NA       NA
+        INI25506 INI25507 INI25508 INI25509 INI25511 INI25512 INI25513 INI25514
+     1:       NA       NA       NA       NA       NA       NA       NA       NA
+     2:       NA       NA       NA       NA       NA       NA       NA       NA
+     3:       NA       NA       NA       NA       NA       NA       NA       NA
+     4:       NA       NA       NA       NA       NA       NA       NA       NA
+     5:       NA       NA       NA       NA       NA       NA       NA       NA
+    ---                                                                        
+488373: 0.476649 0.497493 0.439100 0.497825 0.466842 0.459701 0.430845 0.408746
+488374: 0.472747 0.461598 0.460308 0.459587 0.449910 0.470771 0.345994 0.385885
+488375:       NA       NA       NA       NA       NA       NA       NA       NA
+488376:       NA       NA       NA       NA       NA       NA       NA       NA
+488377:       NA       NA       NA       NA       NA       NA       NA       NA
+           INI25515    INI25516    INI25517    INI25519    INI25520   INI25521
+     1:          NA          NA          NA          NA          NA         NA
+     2:          NA          NA          NA          NA          NA         NA
+     3:          NA          NA          NA          NA          NA         NA
+     4:          NA          NA          NA          NA          NA         NA
+     5:          NA          NA          NA          NA          NA         NA
+    ---                                                                       
+488373: 0.000760743 0.000798830 0.000767639 0.000741630 0.000745202 0.00084373
+488374: 0.000753922 0.000789129 0.000800117 0.000744187 0.000738478 0.00083673
+488375:          NA          NA          NA          NA          NA         NA
+488376:          NA          NA          NA          NA          NA         NA
+488377:          NA          NA          NA          NA          NA         NA
+           INI25523    INI25524    INI25525    INI25526    INI25527    INI25528
+     1:          NA          NA          NA          NA          NA          NA
+     2:          NA          NA          NA          NA          NA          NA
+     3:          NA          NA          NA          NA          NA          NA
+     4:          NA          NA          NA          NA          NA          NA
+     5:          NA          NA          NA          NA          NA          NA
+    ---                                                                        
+488373: 0.000741923 0.000769719 0.000912634 0.000806307 0.000777866 0.000817924
+488374: 0.000749842 0.000761968 0.000912615 0.000845944 0.000824678 0.000800062
+488375:          NA          NA          NA          NA          NA          NA
+488376:          NA          NA          NA          NA          NA          NA
+488377:          NA          NA          NA          NA          NA          NA
+           INI25529    INI25530    INI25531    INI25533    INI25536    INI25538
+     1:          NA          NA          NA          NA          NA          NA
+     2:          NA          NA          NA          NA          NA          NA
+     3:          NA          NA          NA          NA          NA          NA
+     4:          NA          NA          NA          NA          NA          NA
+     5:          NA          NA          NA          NA          NA          NA
+    ---                                                                        
+488373: 0.000784319 0.000826769 0.000676456 0.000830502 0.000714250 0.000737188
+488374: 0.000828254 0.000815720 0.000816815 0.000849713 0.000730253 0.000755709
+488375:          NA          NA          NA          NA          NA          NA
+488376:          NA          NA          NA          NA          NA          NA
+488377:          NA          NA          NA          NA          NA          NA
+           INI25539    INI25540    INI25541 INI25542 INI25543 INI25544 INI25545
+     1:          NA          NA          NA       NA       NA       NA       NA
+     2:          NA          NA          NA       NA       NA       NA       NA
+     3:          NA          NA          NA       NA       NA       NA       NA
+     4:          NA          NA          NA       NA       NA       NA       NA
+     5:          NA          NA          NA       NA       NA       NA       NA
+    ---                                                                        
+488373: 0.000777038 0.000786578 0.000811849 0.433515 0.377657 0.364597 0.436982
+488374: 0.000760062 0.000932040 0.000840810 0.431996 0.454835 0.411012 0.448599
+488375:          NA          NA          NA       NA       NA       NA       NA
+488376:          NA          NA          NA       NA       NA       NA       NA
+488377:          NA          NA          NA       NA       NA       NA       NA
+        INI25548 INI25549 INI25551 INI25553 INI25555 INI25558 INI25560 INI25561
+     1:       NA       NA       NA       NA       NA       NA       NA       NA
+     2:       NA       NA       NA       NA       NA       NA       NA       NA
+     3:       NA       NA       NA       NA       NA       NA       NA       NA
+     4:       NA       NA       NA       NA       NA       NA       NA       NA
+     5:       NA       NA       NA       NA       NA       NA       NA       NA
+    ---                                                                        
+488373: 0.417825 0.386038 0.671995 0.524131 0.462614 0.483270 0.690518 0.491941
+488374: 0.313380 0.451195 0.661808 0.428069 0.531553 0.571367 0.645109 0.539380
+488375:       NA       NA       NA       NA       NA       NA       NA       NA
+488376:       NA       NA       NA       NA       NA       NA       NA       NA
+488377:       NA       NA       NA       NA       NA       NA       NA       NA
+        INI25562 INI25563 INI25564 INI25566   INI25570   INI25571   INI25572
+     1:       NA       NA       NA       NA         NA         NA         NA
+     2:       NA       NA       NA       NA         NA         NA         NA
+     3:       NA       NA       NA       NA         NA         NA         NA
+     4:       NA       NA       NA       NA         NA         NA         NA
+     5:       NA       NA       NA       NA         NA         NA         NA
+    ---                                                                     
+488373: 0.306233 0.376628 0.301559 0.417249 0.00119010 0.00113116 0.00115727
+488374: 0.457519 0.250581 0.362787 0.555880 0.00118015 0.00116970 0.00120641
+488375:       NA       NA       NA       NA         NA         NA         NA
+488376:       NA       NA       NA       NA         NA         NA         NA
+488377:       NA       NA       NA       NA         NA         NA         NA
+          INI25578   INI25579   INI25580   INI25581   INI25582   INI25583
+     1:         NA         NA         NA         NA         NA         NA
+     2:         NA         NA         NA         NA         NA         NA
+     3:         NA         NA         NA         NA         NA         NA
+     4:         NA         NA         NA         NA         NA         NA
+     5:         NA         NA         NA         NA         NA         NA
+    ---                                                                  
+488373: 0.00133721 0.00161871 0.00130491 0.00126497 0.00127582 0.00126271
+488374: 0.00131043 0.00159703 0.00130960 0.00130826 0.00127012 0.00130175
+488375:         NA         NA         NA         NA         NA         NA
+488376:         NA         NA         NA         NA         NA         NA
+488377:         NA         NA         NA         NA         NA         NA
+          INI25584   INI25585   INI25589   INI25590   INI25591   INI25592
+     1:         NA         NA         NA         NA         NA         NA
+     2:         NA         NA         NA         NA         NA         NA
+     3:         NA         NA         NA         NA         NA         NA
+     4:         NA         NA         NA         NA         NA         NA
+     5:         NA         NA         NA         NA         NA         NA
+    ---                                                                  
+488373: 0.00124832 0.00108772 0.00130744 0.00113504 0.00113673 0.00114060
+488374: 0.00127803 0.00130914 0.00141809 0.00110749 0.00112796 0.00114705
+488375:         NA         NA         NA         NA         NA         NA
+488376:         NA         NA         NA         NA         NA         NA
+488377:         NA         NA         NA         NA         NA         NA
+          INI25593   INI25594    INI25597    INI25598    INI25599    INI25600
+     1:         NA         NA          NA          NA          NA          NA
+     2:         NA         NA          NA          NA          NA          NA
+     3:         NA         NA          NA          NA          NA          NA
+     4:         NA         NA          NA          NA          NA          NA
+     5:         NA         NA          NA          NA          NA          NA
+    ---                                                                      
+488373: 0.00118685 0.00117884 0.000720510 0.000693153 0.000704297 0.000533675
+488374: 0.00118305 0.00126581 0.000698012 0.000716290 0.000736586 0.000602125
+488375:         NA         NA          NA          NA          NA          NA
+488376:         NA         NA          NA          NA          NA          NA
+488377:         NA         NA          NA          NA          NA          NA
+           INI25601    INI25602    INI25604    INI25605    INI25606    INI25607
+     1:          NA          NA          NA          NA          NA          NA
+     2:          NA          NA          NA          NA          NA          NA
+     3:          NA          NA          NA          NA          NA          NA
+     4:          NA          NA          NA          NA          NA          NA
+     5:          NA          NA          NA          NA          NA          NA
+    ---                                                                        
+488373: 0.000580607 0.000771952 0.000554793 0.000583994 0.000642249 0.000658912
+488374: 0.000631815 0.000786566 0.000580839 0.000589515 0.000655820 0.000718767
+488375:          NA          NA          NA          NA          NA          NA
+488376:          NA          NA          NA          NA          NA          NA
+488377:          NA          NA          NA          NA          NA          NA
+           INI25608    INI25609    INI25610    INI25611    INI25614    INI25615
+     1:          NA          NA          NA          NA          NA          NA
+     2:          NA          NA          NA          NA          NA          NA
+     3:          NA          NA          NA          NA          NA          NA
+     4:          NA          NA          NA          NA          NA          NA
+     5:          NA          NA          NA          NA          NA          NA
+    ---                                                                        
+488373: 0.000651052 0.000713518 0.000658295 0.000740840 0.000661522 0.000651482
+488374: 0.000686481 0.000672817 0.000695903 0.000691217 0.000694658 0.000802288
+488375:          NA          NA          NA          NA          NA          NA
+488376:          NA          NA          NA          NA          NA          NA
+488377:          NA          NA          NA          NA          NA          NA
+           INI25617    INI25618    INI25619    INI25621    INI25622    INI25624
+     1:          NA          NA          NA          NA          NA          NA
+     2:          NA          NA          NA          NA          NA          NA
+     3:          NA          NA          NA          NA          NA          NA
+     4:          NA          NA          NA          NA          NA          NA
+     5:          NA          NA          NA          NA          NA          NA
+    ---                                                                        
+488373: 0.000627876 0.000666505 0.000641666 0.000691806 0.000703783 0.000485874
+488374: 0.000676106 0.000666370 0.000664012 0.000847236 0.000746466 0.000489235
+488375:          NA          NA          NA          NA          NA          NA
+488376:          NA          NA          NA          NA          NA          NA
+488377:          NA          NA          NA          NA          NA          NA
+           INI25625    INI25626    INI25627    INI25628    INI25633    INI25634
+     1:          NA          NA          NA          NA          NA          NA
+     2:          NA          NA          NA          NA          NA          NA
+     3:          NA          NA          NA          NA          NA          NA
+     4:          NA          NA          NA          NA          NA          NA
+     5:          NA          NA          NA          NA          NA          NA
+    ---                                                                        
+488373: 0.000478609 0.000511593 0.000348631 0.000382429 0.000476939 0.000455105
+488374: 0.000514360 0.000537168 0.000379144 0.000385289 0.000484995 0.000509462
+488375:          NA          NA          NA          NA          NA          NA
+488376:          NA          NA          NA          NA          NA          NA
+488377:          NA          NA          NA          NA          NA          NA
+           INI25635    INI25636    INI25637    INI25638    INI25639    INI25640
+     1:          NA          NA          NA          NA          NA          NA
+     2:          NA          NA          NA          NA          NA          NA
+     3:          NA          NA          NA          NA          NA          NA
+     4:          NA          NA          NA          NA          NA          NA
+     5:          NA          NA          NA          NA          NA          NA
+    ---                                                                        
+488373: 0.000417576 0.000464432 0.000431956 0.000491146 0.000379017 0.000520037
+488374: 0.000479293 0.000457246 0.000487114 0.000477912 0.000478320 0.000506185
+488375:          NA          NA          NA          NA          NA          NA
+488376:          NA          NA          NA          NA          NA          NA
+488377:          NA          NA          NA          NA          NA          NA
+           INI25641    INI25642    INI25644    INI25646    INI25647    INI25648
+     1:          NA          NA          NA          NA          NA          NA
+     2:          NA          NA          NA          NA          NA          NA
+     3:          NA          NA          NA          NA          NA          NA
+     4:          NA          NA          NA          NA          NA          NA
+     5:          NA          NA          NA          NA          NA          NA
+    ---                                                                        
+488373: 0.000488846 0.000438897 0.000379833 0.000429295 0.000464143 0.000489086
+488374: 0.000511790 0.000606512 0.000407159 0.000456066 0.000452812 0.000683079
+488375:          NA          NA          NA          NA          NA          NA
+488376:          NA          NA          NA          NA          NA          NA
+488377:          NA          NA          NA          NA          NA          NA
+           INI25649 INI25650 INI25651 INI25652 INI25653 INI25654 INI25655
+     1:          NA       NA       NA       NA       NA       NA       NA
+     2:          NA       NA       NA       NA       NA       NA       NA
+     3:          NA       NA       NA       NA       NA       NA       NA
+     4:          NA       NA       NA       NA       NA       NA       NA
+     5:          NA       NA       NA       NA       NA       NA       NA
+    ---                                                                  
+488373: 0.000533600 0.584636 0.559882 0.567031 0.553695 0.620879 0.586266
+488374: 0.000574195 0.572928 0.576013 0.560011 0.540114 0.572357 0.551862
+488375:          NA       NA       NA       NA       NA       NA       NA
+488376:          NA       NA       NA       NA       NA       NA       NA
+488377:          NA       NA       NA       NA       NA       NA       NA
+        INI25656 INI25657 INI25658 INI25659 INI25660 INI25661 INI25662 INI25663
+     1:       NA       NA       NA       NA       NA       NA       NA       NA
+     2:       NA       NA       NA       NA       NA       NA       NA       NA
+     3:       NA       NA       NA       NA       NA       NA       NA       NA
+     4:       NA       NA       NA       NA       NA       NA       NA       NA
+     5:       NA       NA       NA       NA       NA       NA       NA       NA
+    ---                                                                        
+488373: 0.457627 0.461539  0.70760 0.672838 0.622043 0.587880 0.574797 0.539332
+488374: 0.445822 0.462421  0.71792 0.714029 0.633669 0.562307 0.549432 0.556965
+488375:       NA       NA       NA       NA       NA       NA       NA       NA
+488376:       NA       NA       NA       NA       NA       NA       NA       NA
+488377:       NA       NA       NA       NA       NA       NA       NA       NA
+        INI25664 INI25665 INI25666 INI25667 INI25668 INI25669 INI25670 INI25671
+     1:       NA       NA       NA       NA       NA       NA       NA       NA
+     2:       NA       NA       NA       NA       NA       NA       NA       NA
+     3:       NA       NA       NA       NA       NA       NA       NA       NA
+     4:       NA       NA       NA       NA       NA       NA       NA       NA
+     5:       NA       NA       NA       NA       NA       NA       NA       NA
+    ---                                                                        
+488373: 0.563289 0.529223 0.732864 0.591100 0.590894 0.551548 0.506792 0.668240
+488374: 0.536071 0.550409 0.763471 0.623593 0.632027 0.544166 0.550671 0.648821
+488375:       NA       NA       NA       NA       NA       NA       NA       NA
+488376:       NA       NA       NA       NA       NA       NA       NA       NA
+488377:       NA       NA       NA       NA       NA       NA       NA       NA
+        INI25672 INI25673 INI25674 INI25675 INI25676 INI25679 INI25680 INI25681
+     1:       NA       NA       NA       NA       NA       NA       NA       NA
+     2:       NA       NA       NA       NA       NA       NA       NA       NA
+     3:       NA       NA       NA       NA       NA       NA       NA       NA
+     4:       NA       NA       NA       NA       NA       NA       NA       NA
+     5:       NA       NA       NA       NA       NA       NA       NA       NA
+    ---                                                                        
+488373: 0.661947 0.633961 0.598576 0.522897 0.502591 0.230859 0.225180 0.116967
+488374: 0.645514 0.622293 0.633574 0.428727 0.475805 0.227092 0.216337 0.128502
+488375:       NA       NA       NA       NA       NA       NA       NA       NA
+488376:       NA       NA       NA       NA       NA       NA       NA       NA
+488377:       NA       NA       NA       NA       NA       NA       NA       NA
+        INI25682 INI25684 INI25685 INI25687 INI25689 INI25690 INI25691 INI25692
+     1:       NA       NA       NA       NA       NA       NA       NA       NA
+     2:       NA       NA       NA       NA       NA       NA       NA       NA
+     3:       NA       NA       NA       NA       NA       NA       NA       NA
+     4:       NA       NA       NA       NA       NA       NA       NA       NA
+     5:       NA       NA       NA       NA       NA       NA       NA       NA
+    ---                                                                        
+488373: 0.130771 0.277326 0.133585 0.120966 0.155374 0.158391 0.172846 0.193757
+488374: 0.141645 0.294287 0.147262 0.133474 0.160145 0.165097 0.178280 0.182832
+488375:       NA       NA       NA       NA       NA       NA       NA       NA
+488376:       NA       NA       NA       NA       NA       NA       NA       NA
+488377:       NA       NA       NA       NA       NA       NA       NA       NA
+        INI25694 INI25695 INI25696 INI25697 INI25698 INI25699 INI25700 INI25701
+     1:       NA       NA       NA       NA       NA       NA       NA       NA
+     2:       NA       NA       NA       NA       NA       NA       NA       NA
+     3:       NA       NA       NA       NA       NA       NA       NA       NA
+     4:       NA       NA       NA       NA       NA       NA       NA       NA
+     5:       NA       NA       NA       NA       NA       NA       NA       NA
+    ---                                                                        
+488373: 0.175576 0.163564 0.177327 0.193839 0.195523 0.209403 0.221776 0.217578
+488374: 0.188797 0.188635 0.189420 0.190170 0.218258 0.216593 0.228767 0.203935
+488375:       NA       NA       NA       NA       NA       NA       NA       NA
+488376:       NA       NA       NA       NA       NA       NA       NA       NA
+488377:       NA       NA       NA       NA       NA       NA       NA       NA
+        INI25702 INI25703  INI25704  INI25705  INI25707  INI25708  INI25709
+     1:       NA       NA        NA        NA        NA        NA        NA
+     2:       NA       NA        NA        NA        NA        NA        NA
+     3:       NA       NA        NA        NA        NA        NA        NA
+     4:       NA       NA        NA        NA        NA        NA        NA
+     5:       NA       NA        NA        NA        NA        NA        NA
+    ---                                                                    
+488373: 0.208849 0.203412 0.0713383 0.0742848 0.0714258 0.0586302 0.0516606
+488374: 0.268753 0.233463 0.0622528 0.0873294 0.0886678 0.0412711 0.0300541
+488375:       NA       NA        NA        NA        NA        NA        NA
+488376:       NA       NA        NA        NA        NA        NA        NA
+488377:       NA       NA        NA        NA        NA        NA        NA
+        INI25712 INI25713  INI25716  INI25717  INI25718  INI25719  INI25723
+     1:       NA       NA        NA        NA        NA        NA        NA
+     2:       NA       NA        NA        NA        NA        NA        NA
+     3:       NA       NA        NA        NA        NA        NA        NA
+     4:       NA       NA        NA        NA        NA        NA        NA
+     5:       NA       NA        NA        NA        NA        NA        NA
+    ---                                                                    
+488373:  0.10998 0.114699 0.0689734 0.0785732 0.0680692 0.0844399 0.0685094
+488374:  0.11897 0.127133 0.0921273 0.0770545 0.0862771 0.0864648 0.1758600
+488375:       NA       NA        NA        NA        NA        NA        NA
+488376:       NA       NA        NA        NA        NA        NA        NA
+488377:       NA       NA        NA        NA        NA        NA        NA
+        INI25724  INI25725  INI25726  INI25727  INI25728  INI25729  INI25730
+     1:       NA        NA        NA        NA        NA        NA        NA
+     2:       NA        NA        NA        NA        NA        NA        NA
+     3:       NA        NA        NA        NA        NA        NA        NA
+     4:       NA        NA        NA        NA        NA        NA        NA
+     5:       NA        NA        NA        NA        NA        NA        NA
+    ---                                                                     
+488373: 0.103364 0.0790393 0.0975610 0.0795554 0.0863008 0.0513313 0.0549589
+488374: 0.166371 0.0834127 0.0913737 0.0851512 0.0954879 0.0851121 0.0595411
+488375:       NA        NA        NA        NA        NA        NA        NA
+488376:       NA        NA        NA        NA        NA        NA        NA
+488377:       NA        NA        NA        NA        NA        NA        NA
+         INI25734 INI25782 INI25784 INI25785 INI25786 INI25787 INI25788
+     1:        NA       NA       NA       NA       NA       NA       NA
+     2:        NA       NA       NA       NA       NA       NA       NA
+     3:        NA       NA       NA       NA       NA       NA       NA
+     4:        NA       NA       NA       NA       NA       NA       NA
+     5:        NA       NA       NA       NA       NA       NA       NA
+    ---                                                                
+488373: 0.0142709  25317.5  6314.22  6035.23  9193.18  8821.94  9959.28
+488374: 0.0154344  19830.3  4860.49  4801.94  8649.30  9460.81  9930.55
+488375:        NA       NA       NA       NA       NA       NA       NA
+488376:        NA       NA       NA       NA       NA       NA       NA
+488377:        NA       NA       NA       NA       NA       NA       NA
+        INI25789 INI25791 INI25793 INI25794 INI25795 INI25796 INI25797 INI25798
+     1:       NA       NA       NA       NA       NA       NA       NA       NA
+     2:       NA       NA       NA       NA       NA       NA       NA       NA
+     3:       NA       NA       NA       NA       NA       NA       NA       NA
+     4:       NA       NA       NA       NA       NA       NA       NA       NA
+     5:       NA       NA       NA       NA       NA       NA       NA       NA
+    ---                                                                        
+488373:  7081.09  3381.45  3405.31  14120.5  12615.8  9083.85  9081.17   1402.7
+488374:  8065.24  1225.82  1540.44  12330.0  12401.8  6740.77  7312.77   1017.4
+488375:       NA       NA       NA       NA       NA       NA       NA       NA
+488376:       NA       NA       NA       NA       NA       NA       NA       NA
+488377:       NA       NA       NA       NA       NA       NA       NA       NA
+        INI25799 INI25800 INI25801 INI25803 INI25805 INI25806 INI25807 INI25808
+     1:       NA       NA       NA       NA       NA       NA       NA       NA
+     2:       NA       NA       NA       NA       NA       NA       NA       NA
+     3:       NA       NA       NA       NA       NA       NA       NA       NA
+     4:       NA       NA       NA       NA       NA       NA       NA       NA
+     5:       NA       NA       NA       NA       NA       NA       NA       NA
+    ---                                                                        
+488373:  1507.60  2421.75  3150.93  1625.08  5363.43  3983.03  3838.82  1349.59
+488374:   840.13  1906.03  2418.91  1318.14  4634.63  4147.82  4473.37  1108.06
+488375:       NA       NA       NA       NA       NA       NA       NA       NA
+488376:       NA       NA       NA       NA       NA       NA       NA       NA
+488377:       NA       NA       NA       NA       NA       NA       NA       NA
+        INI25809 INI25810 INI25812 INI25813 INI25815 INI25817 INI25818 INI25820
+     1:       NA       NA       NA       NA       NA       NA       NA       NA
+     2:       NA       NA       NA       NA       NA       NA       NA       NA
+     3:       NA       NA       NA       NA       NA       NA       NA       NA
+     4:       NA       NA       NA       NA       NA       NA       NA       NA
+     5:       NA       NA       NA       NA       NA       NA       NA       NA
+    ---                                                                        
+488373:  1435.63  4131.01  2908.68  4191.49 13149.30  3819.72  3013.16  3649.47
+488374:  1145.89  2768.96  2844.53  3270.70  9032.59  2791.81  3128.70  4334.97
+488375:       NA       NA       NA       NA       NA       NA       NA       NA
+488376:       NA       NA       NA       NA       NA       NA       NA       NA
+488377:       NA       NA       NA       NA       NA       NA       NA       NA
+        INI25822 INI25825 INI25827 INI25830 INI25833 INI25834 INI25835 INI25837
+     1:       NA       NA       NA       NA       NA       NA       NA       NA
+     2:       NA       NA       NA       NA       NA       NA       NA       NA
+     3:       NA       NA       NA       NA       NA       NA       NA       NA
+     4:       NA       NA       NA       NA       NA       NA       NA       NA
+     5:       NA       NA       NA       NA       NA       NA       NA       NA
+    ---                                                                        
+488373:  3499.73  13877.2  6974.19  1962.07  2468.16  3137.94  2757.98  5971.97
+488374:  4732.06  10844.1  6062.42  1380.38  2507.54  2426.43  2490.99  4083.20
+488375:       NA       NA       NA       NA       NA       NA       NA       NA
+488376:       NA       NA       NA       NA       NA       NA       NA       NA
+488377:       NA       NA       NA       NA       NA       NA       NA       NA
+        INI25838 INI25839 INI25840 INI25841 INI25842 INI25845 INI25846 INI25847
+     1:       NA       NA       NA       NA       NA       NA       NA       NA
+     2:       NA       NA       NA       NA       NA       NA       NA       NA
+     3:       NA       NA       NA       NA       NA       NA       NA       NA
+     4:       NA       NA       NA       NA       NA       NA       NA       NA
+     5:       NA       NA       NA       NA       NA       NA       NA       NA
+    ---                                                                        
+488373:  4974.32  5209.99  4943.53  5123.33  9783.80  2369.11  7492.93  5959.05
+488374:  6160.66  6398.69  5461.26  5071.60  8171.81  2097.09  5721.72  5107.56
+488375:       NA       NA       NA       NA       NA       NA       NA       NA
+488376:       NA       NA       NA       NA       NA       NA       NA       NA
+488377:       NA       NA       NA       NA       NA       NA       NA       NA
+        INI25848 INI25849 INI25850 INI25851 INI25853 INI25854 INI25856 INI25857
+     1:       NA       NA       NA       NA       NA       NA       NA       NA
+     2:       NA       NA       NA       NA       NA       NA       NA       NA
+     3:       NA       NA       NA       NA       NA       NA       NA       NA
+     4:       NA       NA       NA       NA       NA       NA       NA       NA
+     5:       NA       NA       NA       NA       NA       NA       NA       NA
+    ---                                                                        
+488373:  2778.32  2649.86  1935.11  1682.52  6493.48  1296.23  3964.61  3047.49
+488374:  2104.01  2112.51  1637.22  1449.30  5515.33  1181.50  2813.83  2804.69
+488375:       NA       NA       NA       NA       NA       NA       NA       NA
+488376:       NA       NA       NA       NA       NA       NA       NA       NA
+488377:       NA       NA       NA       NA       NA       NA       NA       NA
+        INI25859 INI25860 INI25861 INI25862 INI25864 INI25865 INI25866 INI25867
+     1:       NA       NA       NA       NA       NA       NA       NA       NA
+     2:       NA       NA       NA       NA       NA       NA       NA       NA
+     3:       NA       NA       NA       NA       NA       NA       NA       NA
+     4:       NA       NA       NA       NA       NA       NA       NA       NA
+     5:       NA       NA       NA       NA       NA       NA       NA       NA
+    ---                                                                        
+488373:  3752.37  3997.57  3575.27  1310.21  3821.06  3746.02  2014.02  2085.75
+488374:  2299.16  2710.05  2518.92  1351.05  2968.87  2906.96  1552.97  1641.30
+488375:       NA       NA       NA       NA       NA       NA       NA       NA
+488376:       NA       NA       NA       NA       NA       NA       NA       NA
+488377:       NA       NA       NA       NA       NA       NA       NA       NA
+        INI25868 INI25869 INI25870 INI25871 INI25872 INI25873 INI25874 INI25875
+     1:       NA       NA       NA       NA       NA       NA       NA       NA
+     2:       NA       NA       NA       NA       NA       NA       NA       NA
+     3:       NA       NA       NA       NA       NA       NA       NA       NA
+     4:       NA       NA       NA       NA       NA       NA       NA       NA
+     5:       NA       NA       NA       NA       NA       NA       NA       NA
+    ---                                                                        
+488373: 1380.680 1326.400 1002.110  984.281  1631.09  1376.18   547.12  867.850
+488374:  970.499  835.181  652.421  661.161  1394.19  1234.15   425.73  879.099
+488375:       NA       NA       NA       NA       NA       NA       NA       NA
+488376:       NA       NA       NA       NA       NA       NA       NA       NA
+488377:       NA       NA       NA       NA       NA       NA       NA       NA
+        INI25877 INI25878 INI25879 INI25880 INI25881 INI25887 INI25888 INI25891
+     1:       NA       NA       NA       NA       NA       NA       NA       NA
+     2:       NA       NA       NA       NA       NA       NA       NA       NA
+     3:       NA       NA       NA       NA       NA       NA       NA       NA
+     4:       NA       NA       NA       NA       NA       NA       NA       NA
+     5:       NA       NA       NA       NA       NA       NA       NA       NA
+    ---                                                                        
+488373:  6365.79  2698.82  2649.55  2699.73  3242.06  4260.29  1989.71  560.450
+488374:  5796.12  2697.90  2751.69  2881.84  3618.66  3773.88  1555.90  441.539
+488375:       NA       NA       NA       NA       NA       NA       NA       NA
+488376:       NA       NA       NA       NA       NA       NA       NA       NA
+488377:       NA       NA       NA       NA       NA       NA       NA       NA
+        INI25892 INI25893 INI25894 INI25895 INI25896 INI25897 INI25898 INI25899
+     1:       NA       NA       NA       NA       NA       NA       NA       NA
+     2:       NA       NA       NA       NA       NA       NA       NA       NA
+     3:       NA       NA       NA       NA       NA       NA       NA       NA
+     4:       NA       NA       NA       NA       NA       NA       NA       NA
+     5:       NA       NA       NA       NA       NA       NA       NA       NA
+    ---                                                                        
+488373:  4446.94  1949.94  2188.20  2836.42  2650.38  7089.41  1577.45  6620.54
+488374:  4092.90  1667.72  1868.48  2528.69  2479.77  5745.44  1385.97  5986.05
+488375:       NA       NA       NA       NA       NA       NA       NA       NA
+488376:       NA       NA       NA       NA       NA       NA       NA       NA
+488377:       NA       NA       NA       NA       NA       NA       NA       NA
+        INI25903 INI25904 INI25906 INI25907 INI25908 INI25909 INI25910 INI25911
+     1:       NA       NA       NA       NA       NA       NA       NA       NA
+     2:       NA       NA       NA       NA       NA       NA       NA       NA
+     3:       NA       NA       NA       NA       NA       NA       NA       NA
+     4:       NA       NA       NA       NA       NA       NA       NA       NA
+     5:       NA       NA       NA       NA       NA       NA       NA       NA
+    ---                                                                        
+488373: 10702.10   483.63  4788.59   143.69  4935.24  4152.88  1012.13  4198.15
+488374:  7877.38   389.45  3262.54   172.77  4436.98  2858.53  1031.91  3755.95
+488375:       NA       NA       NA       NA       NA       NA       NA       NA
+488376:       NA       NA       NA       NA       NA       NA       NA       NA
+488377:       NA       NA       NA       NA       NA       NA       NA       NA
+        INI25912 INI25914 INI25915 INI25916 INI25917 INI25919 INI25920
+     1:       NA       NA       NA       NA       NA       NA       NA
+     2:       NA       NA       NA       NA       NA       NA       NA
+     3:       NA       NA       NA       NA       NA       NA       NA
+     4:       NA       NA       NA       NA       NA       NA       NA
+     5:       NA       NA       NA       NA       NA       NA       NA
+    ---                                                               
+488373:  2974.11  2691.04  2607.79  458.650  2614.78   267.21  394.790
+488374:  2101.23  2315.37  1665.64  467.329  1884.40   179.06  467.321
+488375:       NA       NA       NA       NA       NA       NA       NA
+488376:       NA       NA       NA       NA       NA       NA       NA
+488377:       NA       NA       NA       NA       NA       NA       NA
+[1] "phe_counts_df"
+# A tibble: 438 × 15
+   GBE_ID   GBE_NAME  GBE_short_name    WB   NBW   Afr    SA others WB_MM NBW_MM
+   <fct>    <chr>     <chr>          <int> <int> <int> <int>  <int> <int>  <int>
+ 1 INI25000 Volumetr… Vol.tric scal… 32464  1242   219   370   3315 39361   1416
+ 2 INI25001 Vol. of … Vol. of perip… 32464  1242   219   370   3315 39361   1416
+ 3 INI25002 Vol. of … Vol. of perip… 32464  1242   219   370   3315 39361   1416
+ 4 INI25003 Vol. of … Vol. of ventr… 32464  1242   219   370   3315 39361   1416
+ 5 INI25004 Vol. of … Vol. of ventr… 32464  1242   219   370   3315 39361   1416
+ 6 INI25005 Vol. of … Vol. of grey … 32464  1242   219   370   3315 39361   1416
+ 7 INI25006 Vol. of … Vol. of grey … 32464  1242   219   370   3315 39361   1416
+ 8 INI25007 Vol. of … Vol. of white… 32464  1242   219   370   3315 39361   1416
+ 9 INI25008 Vol. of … Vol. of white… 32464  1242   219   370   3315 39361   1416
+10 INI25009 Vol. of … Vol. of brain… 32464  1242   219   370   3315 39361   1416
+# … with 428 more rows, and 5 more variables: Afr_MM <int>, SA_MM <int>,
+#   others_MM <int>, total <int>, total_MM <int>
+[1] "done"

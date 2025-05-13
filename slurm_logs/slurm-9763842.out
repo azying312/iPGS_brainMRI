@@ -1,0 +1,110 @@
+[1] "fullargs: /home/az109/miniconda3/envs/my-snpnet-environment/lib/R/bin/exec/R"            
+[2] "fullargs: --no-echo"                                                                     
+[3] "fullargs: --no-restore"                                                                  
+[4] "fullargs: --file=/home/az109/urop_proj/ukb21942/pheno/05_brain_mri/2_define_phenotypes.R"
+[1] "args: "
+[1] "script name: /net/bmc-lab4/data/kellis/users/az109/ukb21942/pheno/05_brain_mri/2_define_phenotypes.R"
+[1] "dir name: /net/bmc-lab4/data/kellis/users/az109/ukb21942/pheno/05_brain_mri"
+[1] "output files"
+[1] "phe_f: /net/bmc-lab4/data/kellis/users/az109/ukb21942/pheno/brain_mri.tsv.gz"
+[1] "phe_long_f: /net/bmc-lab4/data/kellis/users/az109/ukb21942/pheno/brain_mri.long.tsv.gz"
+[1] "phe_counts_f: /net/bmc-lab4/data/kellis/users/az109/ukb21942/pheno/brain_mri.counts.tsv.gz"
+[1] "fields_df"
+   Field ID                                           Description Short_Name
+1:    25056  Mean FA in middle cerebellar peduncle on FA skeleton         NA
+2:    25057      Mean FA in pontine crossing tract on FA skeleton         NA
+3:    25058     Mean FA in genu of corpus callosum on FA skeleton         NA
+4:    25059     Mean FA in body of corpus callosum on FA skeleton         NA
+5:    25060 Mean FA in splenium of corpus callosum on FA skeleton         NA
+6:    25061                      Mean FA in fornix on FA skeleton         NA
+   Category       Category_Name
+1:       NA Diffusion_brain_MRI
+2:       NA Diffusion_brain_MRI
+3:       NA Diffusion_brain_MRI
+4:       NA Diffusion_brain_MRI
+5:       NA Diffusion_brain_MRI
+6:       NA Diffusion_brain_MRI
+[1] "field_names_df"
+     GBE_ID                                              GBE_NAME Short_Name
+1: INI25056  Mean FA in middle cerebellar peduncle on FA skeleton         NA
+2: INI25057      Mean FA in pontine crossing tract on FA skeleton         NA
+3: INI25058     Mean FA in genu of corpus callosum on FA skeleton         NA
+4: INI25059     Mean FA in body of corpus callosum on FA skeleton         NA
+5: INI25060 Mean FA in splenium of corpus callosum on FA skeleton         NA
+6: INI25061                      Mean FA in fornix on FA skeleton         NA
+   Category       Category_Name
+1:       NA Diffusion_brain_MRI
+2:       NA Diffusion_brain_MRI
+3:       NA Diffusion_brain_MRI
+4:       NA Diffusion_brain_MRI
+5:       NA Diffusion_brain_MRI
+6:       NA Diffusion_brain_MRI
+                                          GBE_short_name
+1:  Mean FA in middle cerebellar peduncle on FA skeleton
+2:      Mean FA in pontine crossing tract on FA skeleton
+3:     Mean FA in genu of corpus callosum on FA skeleton
+4:     Mean FA in body of corpus callosum on FA skeleton
+5: Mean FA in splenium of corpus callosum on FA skeleton
+6:                      Mean FA in fornix on FA skeleton
+   value < 0      n
+1:     FALSE 561534
+   array      n
+1:     0 561534
+[1] "phe_long_df"
+# A tibble: 510,492 × 4
+   FID     IID     GBE_ID   value
+   <chr>   <chr>   <fct>    <dbl>
+ 1 1000044 1000044 INI25014  4013
+ 2 1000289 1000289 INI25014  4404
+ 3 1000457 1000457 INI25014  3053
+ 4 1000537 1000537 INI25014  3752
+ 5 1000703 1000703 INI25014  3627
+ 6 1000742 1000742 INI25014  3695
+ 7 1000756 1000756 INI25014  3843
+ 8 1000881 1000881 INI25014  3399
+ 9 1000890 1000890 INI25014  3074
+10 1001115 1001115 INI25014  4284
+# … with 510,482 more rows
+[1] "phe_wide_df"
+            FID     IID INI25014 INI25781 INI25828 INI25829 INI25882 INI25883
+     1:      -1      -1       NA       NA       NA       NA       NA       NA
+     2:      -2      -2       NA       NA       NA       NA       NA       NA
+     3:      -3      -3       NA       NA       NA       NA       NA       NA
+     4:      -4      -4       NA       NA       NA       NA       NA       NA
+     5:      -5      -5       NA       NA       NA       NA       NA       NA
+    ---                                                                      
+488373: 6026376 6026376     3284     3361  2824.68  2669.57  1854.45  2178.65
+488374: 6026389 6026389     3195     6709  1796.04  2121.91  1360.00  1665.75
+488375: 6026393 6026393       NA       NA       NA       NA       NA       NA
+488376: 6026407 6026407       NA       NA       NA       NA       NA       NA
+488377: 6026419 6026419       NA       NA       NA       NA       NA       NA
+        INI25886 INI25890 INI25902 INI25905 INI25913
+     1:       NA       NA       NA       NA       NA
+     2:       NA       NA       NA       NA       NA
+     3:       NA       NA       NA       NA       NA
+     4:       NA       NA       NA       NA       NA
+     5:       NA       NA       NA       NA       NA
+    ---                                             
+488373:  4204.57   503.14 12747.00 10739.50   466.75
+488374:  3683.22   435.80  9508.69  8313.61   389.19
+488375:       NA       NA       NA       NA       NA
+488376:       NA       NA       NA       NA       NA
+488377:       NA       NA       NA       NA       NA
+[1] "phe_counts_df"
+# A tibble: 11 × 15
+   GBE_ID   GBE_NAME GBE_short_name    WB   NBW   Afr    SA others WB_MM NBW_MM
+   <fct>    <chr>    <chr>          <int> <int> <int> <int>  <int> <int>  <int>
+ 1 INI25014 <NA>     <NA>           32451  1242   219   370   3312 39347   1416
+ 2 INI25781 <NA>     <NA>           31527  1211   209   350   3198 38248   1380
+ 3 INI25828 <NA>     <NA>           32459  1242   219   370   3315 39356   1416
+ 4 INI25829 <NA>     <NA>           32459  1242   219   370   3315 39356   1416
+ 5 INI25882 <NA>     <NA>           32459  1242   219   370   3315 39356   1416
+ 6 INI25883 <NA>     <NA>           32459  1242   219   370   3315 39356   1416
+ 7 INI25886 <NA>     <NA>           32459  1242   219   370   3315 39356   1416
+ 8 INI25890 <NA>     <NA>           32459  1242   219   370   3315 39356   1416
+ 9 INI25902 <NA>     <NA>           32459  1242   219   370   3315 39356   1416
+10 INI25905 <NA>     <NA>           32459  1242   219   370   3315 39356   1416
+11 INI25913 <NA>     <NA>           32459  1242   219   370   3315 39356   1416
+# … with 5 more variables: Afr_MM <int>, SA_MM <int>, others_MM <int>,
+#   total <int>, total_MM <int>
+[1] "done"

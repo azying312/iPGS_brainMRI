@@ -1,0 +1,454 @@
+[1] "fullargs: /home/az109/miniconda3/envs/my-snpnet-environment/lib/R/bin/exec/R"                            
+[2] "fullargs: --no-echo"                                                                                     
+[3] "fullargs: --no-restore"                                                                                  
+[4] "fullargs: --file=/net/bmc-lab4/data/kellis/users/az109/ukb21942/pheno/05_brain_mri/2_define_phenotypes.R"
+[1] "args: "
+[1] "script name: /net/bmc-lab4/data/kellis/users/az109/ukb21942/pheno/05_brain_mri/2_define_phenotypes.R"
+[1] "dir name: /net/bmc-lab4/data/kellis/users/az109/ukb21942/pheno/05_brain_mri"
+[1] "output files"
+[1] "phe_f: /net/bmc-lab4/data/kellis/users/az109/ukb21942/pheno/brain_mri.tsv.gz"
+[1] "phe_long_f: /net/bmc-lab4/data/kellis/users/az109/ukb21942/pheno/brain_mri.long.tsv.gz"
+[1] "phe_counts_f: /net/bmc-lab4/data/kellis/users/az109/ukb21942/pheno/brain_mri.counts.tsv.gz"
+[1] "fields_df"
+[1] "field_names_df"
+[1] 438
+[1] "SQL_dump_f"
+[1] "/net/bmc-lab4/data/kellis/users/az109/ukb21942/pheno/tmp/05_brain_mri/tab_dump.tsv.gz"
+   value < 0        n
+1:     FALSE 22225411
+2:      TRUE        7
+   array        n
+1:     0 22225418
+[1] "phe_long_df"
+# A tibble: 6 × 4
+  FID     IID     GBE_ID   value
+  <chr>   <chr>   <fct>    <dbl>
+1 1000044 1000044 INI25000  1.12
+2 1000289 1000289 INI25000  1.34
+3 1000457 1000457 INI25000  1.60
+4 1000537 1000537 INI25000  1.46
+5 1000703 1000703 INI25000  1.17
+6 1000742 1000742 INI25000  1.28
+[1] "phe_wide_df"
+   FID IID INI25000 INI25001 INI25002 INI25003 INI25004 INI25005 INI25006
+1:  -1  -1       NA       NA       NA       NA       NA       NA       NA
+2:  -2  -2       NA       NA       NA       NA       NA       NA       NA
+3:  -3  -3       NA       NA       NA       NA       NA       NA       NA
+4:  -4  -4       NA       NA       NA       NA       NA       NA       NA
+5:  -5  -5       NA       NA       NA       NA       NA       NA       NA
+6:  -6  -6       NA       NA       NA       NA       NA       NA       NA
+   INI25007 INI25008 INI25009 INI25010 INI25011 INI25012 INI25013 INI25014
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25015 INI25016 INI25017 INI25018 INI25019 INI25021 INI25022 INI25023
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25024 INI25025 INI25026 INI25027 INI25028 INI25029 INI25030 INI25031
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25032 INI25033 INI25034 INI25036 INI25037 INI25039 INI25056 INI25057
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25058 INI25059 INI25060 INI25061 INI25062 INI25063 INI25064 INI25066
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25067 INI25068 INI25069 INI25071 INI25072 INI25073 INI25074 INI25075
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25076 INI25077 INI25078 INI25079 INI25080 INI25081 INI25083 INI25084
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25085 INI25086 INI25087 INI25088 INI25089 INI25090 INI25091 INI25092
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25093 INI25094 INI25096 INI25097 INI25098 INI25099 INI25100 INI25101
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25102 INI25103 INI25344 INI25345 INI25346 INI25347 INI25349 INI25350
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25351 INI25352 INI25353 INI25354 INI25355 INI25356 INI25357 INI25358
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25359 INI25360 INI25361 INI25362 INI25363 INI25364 INI25365 INI25366
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25367 INI25368 INI25369 INI25370 INI25371 INI25372 INI25373 INI25374
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25375 INI25376 INI25377 INI25378 INI25379 INI25380 INI25381 INI25382
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25383 INI25384 INI25385 INI25386 INI25387 INI25388 INI25389 INI25391
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25440 INI25441 INI25443 INI25445 INI25446 INI25447 INI25451 INI25452
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25453 INI25457 INI25458 INI25460 INI25461 INI25462 INI25463 INI25464
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25465 INI25467 INI25469 INI25470 INI25471 INI25473 INI25474 INI25475
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25482 INI25483 INI25488 INI25489 INI25490 INI25491 INI25492 INI25493
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25495 INI25497 INI25498 INI25499 INI25500 INI25501 INI25502 INI25503
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25506 INI25507 INI25508 INI25509 INI25511 INI25512 INI25513 INI25514
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25515 INI25516 INI25517 INI25519 INI25520 INI25521 INI25523 INI25524
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25525 INI25526 INI25527 INI25528 INI25529 INI25530 INI25531 INI25533
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25536 INI25538 INI25539 INI25540 INI25541 INI25542 INI25543 INI25544
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25545 INI25548 INI25549 INI25551 INI25553 INI25555 INI25558 INI25560
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25561 INI25562 INI25563 INI25564 INI25566 INI25570 INI25571 INI25572
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25578 INI25579 INI25580 INI25581 INI25582 INI25583 INI25584 INI25585
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25589 INI25590 INI25591 INI25592 INI25593 INI25594 INI25597 INI25598
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25599 INI25600 INI25601 INI25602 INI25604 INI25605 INI25606 INI25607
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25608 INI25609 INI25610 INI25611 INI25614 INI25615 INI25617 INI25618
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25619 INI25621 INI25622 INI25624 INI25625 INI25626 INI25627 INI25628
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25633 INI25634 INI25635 INI25636 INI25637 INI25638 INI25639 INI25640
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25641 INI25642 INI25644 INI25646 INI25647 INI25648 INI25649 INI25650
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25651 INI25652 INI25653 INI25654 INI25655 INI25656 INI25657 INI25658
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25659 INI25660 INI25661 INI25662 INI25663 INI25664 INI25665 INI25666
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25667 INI25668 INI25669 INI25670 INI25671 INI25672 INI25673 INI25674
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25675 INI25676 INI25679 INI25680 INI25681 INI25682 INI25684 INI25685
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25687 INI25689 INI25690 INI25691 INI25692 INI25694 INI25695 INI25696
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25697 INI25698 INI25699 INI25700 INI25701 INI25702 INI25703 INI25704
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25705 INI25707 INI25708 INI25709 INI25712 INI25713 INI25716 INI25717
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25718 INI25719 INI25723 INI25724 INI25725 INI25726 INI25727 INI25728
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25729 INI25730 INI25734 INI25781 INI25782 INI25784 INI25785 INI25786
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25787 INI25788 INI25789 INI25791 INI25793 INI25794 INI25795 INI25796
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25797 INI25798 INI25799 INI25800 INI25801 INI25803 INI25805 INI25806
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25807 INI25808 INI25809 INI25810 INI25812 INI25813 INI25815 INI25817
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25818 INI25820 INI25822 INI25825 INI25827 INI25828 INI25829 INI25830
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25833 INI25834 INI25835 INI25837 INI25838 INI25839 INI25840 INI25841
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25842 INI25845 INI25846 INI25847 INI25848 INI25849 INI25850 INI25851
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25853 INI25854 INI25856 INI25857 INI25859 INI25860 INI25861 INI25862
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25864 INI25865 INI25866 INI25867 INI25868 INI25869 INI25870 INI25871
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25872 INI25873 INI25874 INI25875 INI25877 INI25878 INI25879 INI25880
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25881 INI25882 INI25883 INI25886 INI25887 INI25888 INI25890 INI25891
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25892 INI25893 INI25894 INI25895 INI25896 INI25897 INI25898 INI25899
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25902 INI25903 INI25904 INI25905 INI25906 INI25907 INI25908 INI25909
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25910 INI25911 INI25912 INI25913 INI25914 INI25915 INI25916 INI25917
+1:       NA       NA       NA       NA       NA       NA       NA       NA
+2:       NA       NA       NA       NA       NA       NA       NA       NA
+3:       NA       NA       NA       NA       NA       NA       NA       NA
+4:       NA       NA       NA       NA       NA       NA       NA       NA
+5:       NA       NA       NA       NA       NA       NA       NA       NA
+6:       NA       NA       NA       NA       NA       NA       NA       NA
+   INI25919 INI25920
+1:       NA       NA
+2:       NA       NA
+3:       NA       NA
+4:       NA       NA
+5:       NA       NA
+6:       NA       NA
+[1] "phe_counts_df"
+# A tibble: 6 × 15
+  GBE_ID   GBE_NAME   GBE_short_name    WB   NBW   Afr    SA others WB_MM NBW_MM
+  <fct>    <chr>      <chr>          <int> <int> <int> <int>  <int> <int>  <int>
+1 INI25000 Volumetri… Vol.tric scal… 32464  1242   219   370   3315 39361   1416
+2 INI25001 Vol. of p… Vol. of perip… 32464  1242   219   370   3315 39361   1416
+3 INI25002 Vol. of p… Vol. of perip… 32464  1242   219   370   3315 39361   1416
+4 INI25003 Vol. of v… Vol. of ventr… 32464  1242   219   370   3315 39361   1416
+5 INI25004 Vol. of v… Vol. of ventr… 32464  1242   219   370   3315 39361   1416
+6 INI25005 Vol. of g… Vol. of grey … 32464  1242   219   370   3315 39361   1416
+# … with 5 more variables: Afr_MM <int>, SA_MM <int>, others_MM <int>,
+#   total <int>, total_MM <int>
+[1] "WB"
+[1] 32464 32451 29754 30919 30917 31527 32459
+[1] "NBW"
+[1] 1242 1116 1192 1211
+[1] "Afr"
+[1] 219 193 203 209
+[1] "SA"
+[1] 370 332 343 350
+[1] "others"
+[1] 3315 3312 3018 3131 3130 3198
+[1] "done"

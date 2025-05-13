@@ -1,0 +1,35 @@
+[1] "fullargs: /home/az109/miniconda3/envs/my-snpnet-environment/lib/R/bin/exec/R"            
+[2] "fullargs: --no-echo"                                                                     
+[3] "fullargs: --no-restore"                                                                  
+[4] "fullargs: --file=/home/az109/urop_proj/ukb21942/pheno/05_brain_mri/2_define_phenotypes.R"
+[1] "args: "
+[1] "script name: /net/bmc-lab4/data/kellis/users/az109/ukb21942/pheno/05_brain_mri/2_define_phenotypes.R"
+[1] "dir name: /net/bmc-lab4/data/kellis/users/az109/ukb21942/pheno/05_brain_mri"
+[1] "output files"
+[1] "phe_f: /net/bmc-lab4/data/kellis/users/az109/ukb21942//pheno/blood_count.tsv.gz"
+[1] "phe_long_f: /net/bmc-lab4/data/kellis/users/az109/ukb21942//pheno/blood_count.long.tsv.gz"
+[1] "phe_counts_f: /net/bmc-lab4/data/kellis/users/az109/ukb21942//pheno/blood_count.counts.tsv.gz"
+[1] "fields_df"
+   Field ID                                            Description Short_Name
+1:    25888               Volume of grey matter in Amygdala (left)  VGM_Amd_L
+2:    25829 Volume of grey matter in Intracalcarine Cortex (right)  VGM_Icc_R
+   Category                                                Category_Name
+1:     1101 T1 Structural brain MRI, Regional grey matter volumes (FAST)
+2:     1101 T1 Structural brain MRI, Regional grey matter volumes (FAST)
+                                                        URL
+1: https://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=25888
+2: https://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=25829
+[1] "field_names_df"
+     GBE_ID                                               GBE_NAME Short_Name
+1: INI25888               Volume of grey matter in Amygdala (left)  VGM_Amd_L
+2: INI25829 Volume of grey matter in Intracalcarine Cortex (right)  VGM_Icc_R
+   Category                                                Category_Name
+1:     1101 T1 Structural brain MRI, Regional grey matter volumes (FAST)
+2:     1101 T1 Structural brain MRI, Regional grey matter volumes (FAST)
+                                                        URL GBE_short_name
+1: https://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=25888     Short_Name
+2: https://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=25829     Short_Name
+Error in fread(., colClasses = c(`#eid` = "character", value = "character")) : 
+  File '/net/bmc-lab4/data/kellis/users/az109/ukb21942//pheno/tmp/05_brain_mri/SQL_dump.tsv.gz' does not exist or is non-readable. getwd()=='/net/bmc-lab4/data/kellis/users/az109/ukb21942/pheno/05_brain_mri'
+Calls: %>% -> rename -> fread
+Execution halted

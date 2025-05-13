@@ -1,0 +1,7 @@
+SQL_dump_f: /net/bmc-lab4/data/kellis/users/az109/ukb21942/pheno/tmp/05_brain_mri/tab_dump.tsv.gz
+long_f: /net/bmc-lab5/data/kellis/group/tanigawa/data/ukb21942//pheno/basket4043067/ukb672713.long.tsv.gz
+fields: /net/bmc-lab4/data/kellis/users/az109/ukb21942/pheno/05_brain_mri/misc/fields.tsv
+regex_pattern: ^25890$|^25829$|^25902$|^25828$|^25883$|^25882$|^25905$|^25886$|^25913$|^25014$|^25781$
+Output file /net/bmc-lab4/data/kellis/users/az109/ukb21942/pheno/tmp/05_brain_mri/tab_dump.tsv.gz created successfully.
+Number of lines in the output file: 561535
+Size of the output file: 3.5M

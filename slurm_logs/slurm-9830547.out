@@ -1,0 +1,15 @@
+[1] "analysis_name: 05_brain_mri"
+[1] "start source /net/bmc-lab4/data/kellis/users/az109/ukb21942 paths.sh"
+[1] "start source /net/bmc-lab4/data/kellis/users/az109/ukb21942 /helpers/functions.R"
+[1] "finish source"
+[1] "script_dir: /net/bmc-lab4/data/kellis/users/az109/ukb21942/pheno/05_brain_mri"
+[1] "phe_name: /net/bmc-lab4/data/kellis/users/az109/ukb21942/pheno"
+[1] "tail pheno df"
+[1] 488377     13
+  Phenotype         SVD1       SVD2
+1  INI25014 -0.325537648 -0.0890803
+2  INI25781  0.005283259 -0.3025110
+3  INI25828 -0.272404582  0.3179916
+4  INI25829 -0.284836137  0.3150829
+5  INI25882 -0.323364306 -0.5297011
+6  INI25883 -0.337285830 -0.5021247

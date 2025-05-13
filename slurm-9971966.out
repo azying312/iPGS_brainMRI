@@ -1,0 +1,107 @@
+[1] "fullargs: /home/az109/miniconda3/envs/my-snpnet-environment/lib/R/bin/exec/R"                            
+[2] "fullargs: --no-echo"                                                                                     
+[3] "fullargs: --no-restore"                                                                                  
+[4] "fullargs: --file=/net/bmc-lab4/data/kellis/users/az109/ukb21942/pheno/05_brain_mri/2_define_phenotypes.R"
+[1] "args: "
+[1] "script name: /net/bmc-lab4/data/kellis/users/az109/ukb21942/pheno/05_brain_mri/2_define_phenotypes.R"
+[1] "dir name: /net/bmc-lab4/data/kellis/users/az109/ukb21942/pheno/05_brain_mri"
+[1] "output files"
+[1] "phe_f: /net/bmc-lab4/data/kellis/users/az109/ukb21942/pheno/brain_mri.tsv_keep.gz"
+[1] "phe_long_f: /net/bmc-lab4/data/kellis/users/az109/ukb21942/pheno/brain_mri.long_keep.tsv.gz"
+[1] "phe_counts_f: /net/bmc-lab4/data/kellis/users/az109/ukb21942/pheno/brain_mri.counts_keep.tsv.gz"
+[1] "/net/bmc-lab5/data/kellis/group/tanigawa/data/ukb21942//sqc/sqc.20220316.tsv.gz"
+[1] "/net/bmc-lab4/data/kellis/users/az109/ukb21942/pheno/tmp/05_brain_mri/tab_dump.tsv.gz"
+[1] "sqc_df"
+[1] 488377      5
+   FID IID population population_MM pass_QC_filter
+1:  -1  -1       <NA>          <NA>          FALSE
+2:  -2  -2       <NA>          <NA>          FALSE
+3:  -3  -3       <NA>          <NA>          FALSE
+4:  -4  -4       <NA>          <NA>          FALSE
+5:  -5  -5       <NA>          <NA>          FALSE
+6:  -6  -6       <NA>          <NA>          FALSE
+[1] 488377
+[1] "fields_df"
+   Field.ID
+1:    25915
+2:    25916
+3:    25917
+4:    25919
+5:    25920
+6:    25781
+                                                                 Description
+1:                                  Vol._of_grey_matter_in_IX_Cerebellum_(L)
+2:                               Vol._of_grey_matter_in_Vermis_IX_Cerebellum
+3:                                  Vol._of_grey_matter_in_IX_Cerebellum_(R)
+4:                                Vol._of_grey_matter_in_Vermis_X_Cerebellum
+5:                                   Vol._of_grey_matter_in_X_Cerebellum_(R)
+6: Total_vol._of_white_matter_hyperintensities_(from_T1_and_T2_FLAIR_images)
+                                                      Category
+1: T1_structural_brain_MRI_Regional_grey_matter_volumes_(FAST)
+2: T1_structural_brain_MRI_Regional_grey_matter_volumes_(FAST)
+3: T1_structural_brain_MRI_Regional_grey_matter_volumes_(FAST)
+4: T1_structural_brain_MRI_Regional_grey_matter_volumes_(FAST)
+5: T1_structural_brain_MRI_Regional_grey_matter_volumes_(FAST)
+6:                                       T2-weighted_brain_MRI
+             Category_Name
+1: T1_structural_brain_MRI
+2: T1_structural_brain_MRI
+3: T1_structural_brain_MRI
+4: T1_structural_brain_MRI
+5: T1_structural_brain_MRI
+6:   T2-weighted_brain_MRI
+[1] 0
+[1] "brain GBE IDs"
+[1] 449
+[1] "tab dump df"
+[1] 22225418        5
+       IID field instance array   value
+1: 1000044 25000        2     0  1.1226
+2: 1000044 25001        2     0  587392
+3: 1000044 25002        2     0  523243
+4: 1000044 25003        2     0 38497.8
+5: 1000044 25004        2     0 34293.4
+6: 1000044 25005        2     0  767055
+[1] 46535
+   value < 0        n
+1:     FALSE 22225411
+2:      TRUE        7
+   array        n
+1:     0 22225418
+[1] "save image"
+[1] "tab agg dim: 11458452" "tab agg dim: 3"       
+[1] "phe_long_df"
+# A tibble: 6 × 4
+  FID     IID     GBE_ID   value
+  <chr>   <chr>   <fct>    <dbl>
+1 1000457 1000457 INI25000  1.60
+2 1000537 1000537 INI25000  1.46
+3 1000703 1000703 INI25000  1.17
+4 1000742 1000742 INI25000  1.28
+5 1000881 1000881 INI25000  1.26
+6 1000890 1000890 INI25000  1.50
+[1] "phe_wide_df"
+[1] 488377    451
+[1] "phe_counts_df"
+# A tibble: 6 × 15
+  GBE_ID   GBE_NAME   GBE_short_name    WB   NBW   Afr    SA others WB_MM NBW_MM
+  <fct>    <chr>      <chr>          <int> <int> <int> <int>  <int> <int>  <int>
+1 INI25000 Volumetri… Vol.tric_scal… 22866   843   141   280   2307 22866    843
+2 INI25001 Vol._of_p… Vol._of_perip… 22866   843   141   280   2307 22866    843
+3 INI25002 Vol._of_p… Vol._of_perip… 22866   843   141   280   2307 22866    843
+4 INI25003 Vol._of_v… Vol._of_ventr… 22866   843   141   280   2307 22866    843
+5 INI25004 Vol._of_v… Vol._of_ventr… 22866   843   141   280   2307 22866    843
+6 INI25005 Vol._of_g… Vol._of_grey_… 22866   843   141   280   2307 22866    843
+# … with 5 more variables: Afr_MM <int>, SA_MM <int>, others_MM <int>,
+#   total <int>, total_MM <int>
+[1] "WB"
+[1] 22866 22857 20961 21776 21774 22207 22864
+[1] "NBW"
+[1] 843 761 810 822
+[1] "Afr"
+[1] 141 122 131 135
+[1] "SA"
+[1] 280 248 255 263
+[1] "others"
+[1] 2307 2304 2098 2188 2187 2235
+[1] "done"

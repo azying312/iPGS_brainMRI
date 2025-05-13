@@ -1,0 +1,31 @@
+SRCNAME: /net/bmc-lab4/data/kellis/users/az109/ukb21942/ipgs/brain_mri/2_eval_covars.sbatch.sh
+SRCDIR: /net/bmc-lab4/data/kellis/users/az109/ukb21942/ipgs/brain_mri
+REPODIR: /net/bmc-lab4/data/kellis/users/az109/ukb21942
+source this: /net/bmc-lab4/data/kellis/users/az109/ukb21942/helpers/functions.sh
+start source paths
+repo_dir: Inside get_repo_d, before readlink: /home/az109/urop_proj/ukb21942
+Inside get_repo_d, after readlink: /net/bmc-lab4/data/kellis/users/az109/ukb21942
+returned dir: /net/bmc-lab4/data/kellis/users/az109/ukb21942
+srcdir new: /net/bmc-lab4/data/kellis/users/az109/ukb21942/ipgs
+srcdir new: /net/bmc-lab4/data/kellis/users/az109/ukb21942
+srcdir new: /net/bmc-lab4/data/kellis/users/az109
+srcdir new: /net/bmc-lab4/data/kellis/users
+srcdir new: /net/bmc-lab4/data/kellis
+srcdir new: /net/bmc-lab4/data
+srcdir new: /net/bmc-lab4
+srcdir new: /net
+srcdir new: /
+slurm_log_d: /home/az109/slurm-logs/repos/net/bmc-lab4/data/kellis/users/az109/ukb21942/ipgs/brain_mri
+slurm_job_name: brain_mri
+job_list_sh: /home/az109/slurm-logs/repos/net/bmc-lab4/data/kellis/users/az109/ukb21942/ipgs/brain_mri/brain_mri.jobs.20250107-222338.sh
+-p kellis --mem=15000 --ntasks=2 --nodes=1 --time=1-23:55:00 --exclude=b[1-4],c[5-22] --nice=200000
+covar_strs: UKB_18PCs
+pops: all
+job_cmd: bash /net/bmc-lab4/data/kellis/users/az109/ukb21942/ipgs/wrapper_eval_covars.sh brain_mri
+job list sh: /home/az109/slurm-logs/repos/net/bmc-lab4/data/kellis/users/az109/ukb21942/ipgs/brain_mri/brain_mri.jobs.20250107-222338.sh
+n jobs: 11
+n_array_tasks: 11
+parasol_sbatch_sh: /home/az109/urop_proj/ukb21942/ipgs/parasol-sbatch.sh
+## submission of 11 jobs in 11 tasks (each has up to 1 jobs) ##
++ sbatch -p kellis --mem=15000 --ntasks=2 --nodes=1 --time=1-23:55:00 '--exclude=b[1-4],c[5-22]' --nice=200000 --job-name=brain_mri --output=/home/az109/slurm-logs/repos/net/bmc-lab4/data/kellis/users/az109/ukb21942/ipgs/brain_mri/brain_mri.%A.%a.out --error=/home/az109/slurm-logs/repos/net/bmc-lab4/data/kellis/users/az109/ukb21942/ipgs/brain_mri/brain_mri.%A.%a.err --array=1-11%50 /home/az109/urop_proj/ukb21942/ipgs/parasol-sbatch.sh /home/az109/slurm-logs/repos/net/bmc-lab4/data/kellis/users/az109/ukb21942/ipgs/brain_mri/brain_mri.jobs.20250107-222338.sh 1
+Submitted batch job 9830536

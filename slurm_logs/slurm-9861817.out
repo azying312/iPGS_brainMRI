@@ -1,0 +1,56 @@
+[1] "fullargs: /home/az109/miniconda3/envs/my-snpnet-environment/lib/R/bin/exec/R"                            
+[2] "fullargs: --no-echo"                                                                                     
+[3] "fullargs: --no-restore"                                                                                  
+[4] "fullargs: --file=/net/bmc-lab4/data/kellis/users/az109/ukb21942/pheno/05_brain_mri/2_define_phenotypes.R"
+[1] "args: "
+[1] "script name: /net/bmc-lab4/data/kellis/users/az109/ukb21942/pheno/05_brain_mri/2_define_phenotypes.R"
+[1] "dir name: /net/bmc-lab4/data/kellis/users/az109/ukb21942/pheno/05_brain_mri"
+[1] "output files"
+[1] "phe_f: /net/bmc-lab4/data/kellis/users/az109/ukb21942/pheno/brain_mri.tsv.gz"
+[1] "phe_long_f: /net/bmc-lab4/data/kellis/users/az109/ukb21942/pheno/brain_mri.long.tsv.gz"
+[1] "phe_counts_f: /net/bmc-lab4/data/kellis/users/az109/ukb21942/pheno/brain_mri.counts.tsv.gz"
+[1] "fields_df"
+[1] "field_names_df"
+[1] 438
+[1] "SQL_dump_f"
+[1] "/net/bmc-lab4/data/kellis/users/az109/ukb21942/pheno/tmp/05_brain_mri/tab_dump.tsv.gz"
+   value < 0        n
+1:     FALSE 22225411
+2:      TRUE        7
+   array        n
+1:     0 22225418
+[1] "phe_long_df"
+# A tibble: 6 × 4
+  FID     IID     GBE_ID   value
+  <chr>   <chr>   <fct>    <dbl>
+1 1000044 1000044 INI25000  1.12
+2 1000289 1000289 INI25000  1.34
+3 1000457 1000457 INI25000  1.60
+4 1000537 1000537 INI25000  1.46
+5 1000703 1000703 INI25000  1.17
+6 1000742 1000742 INI25000  1.28
+[1] "phe_wide_df"
+[1] 488377    451
+[1] "phe_counts_df"
+# A tibble: 6 × 15
+  GBE_ID   GBE_NAME   GBE_short_name    WB   NBW   Afr    SA others WB_MM NBW_MM
+  <fct>    <chr>      <chr>          <int> <int> <int> <int>  <int> <int>  <int>
+1 INI25000 Volumetri… Vol.tric scal… 32464  1242   219   370   3315 39361   1416
+2 INI25001 Vol. of p… Vol. of perip… 32464  1242   219   370   3315 39361   1416
+3 INI25002 Vol. of p… Vol. of perip… 32464  1242   219   370   3315 39361   1416
+4 INI25003 Vol. of v… Vol. of ventr… 32464  1242   219   370   3315 39361   1416
+5 INI25004 Vol. of v… Vol. of ventr… 32464  1242   219   370   3315 39361   1416
+6 INI25005 Vol. of g… Vol. of grey … 32464  1242   219   370   3315 39361   1416
+# … with 5 more variables: Afr_MM <int>, SA_MM <int>, others_MM <int>,
+#   total <int>, total_MM <int>
+[1] "WB"
+[1] 32464 32451 29754 30919 30917 31527 32459
+[1] "NBW"
+[1] 1242 1116 1192 1211
+[1] "Afr"
+[1] 219 193 203 209
+[1] "SA"
+[1] 370 332 343 350
+[1] "others"
+[1] 3315 3312 3018 3131 3130 3198
+[1] "done"

@@ -1,0 +1,6 @@
+SQL_dump_f: /net/bmc-lab4/data/kellis/users/az109/ukb21942//pheno/tmp/05_brain_mri/tab_dump.tsv.gz
+long_f: /net/bmc-lab5/data/kellis/group/tanigawa/data/ukb21942//pheno/basket4043067/ukb672713.long.tsv.gz
+fields: /net/bmc-lab4/data/kellis/users/az109/ukb21942/pheno/05_brain_mri/misc/fields.tsv
+Output file /net/bmc-lab4/data/kellis/users/az109/ukb21942//pheno/tmp/05_brain_mri/tab_dump.tsv.gz created successfully.
+Number of lines in the output file: 7113604
+Size of the output file: 46M

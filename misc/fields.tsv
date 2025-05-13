@@ -1,0 +1,439 @@
+Field ID	Description	Short_Name	Category	Category_Name
+25056	Mean FA in middle cerebellar peduncle on FA skeleton			Diffusion_brain_MRI
+25057	Mean FA in pontine crossing tract on FA skeleton			Diffusion_brain_MRI
+25058	Mean FA in genu of corpus callosum on FA skeleton			Diffusion_brain_MRI
+25059	Mean FA in body of corpus callosum on FA skeleton			Diffusion_brain_MRI
+25060	Mean FA in splenium of corpus callosum on FA skeleton			Diffusion_brain_MRI
+25061	Mean FA in fornix on FA skeleton			Diffusion_brain_MRI
+25062	Mean FA in corticospinal tract on FA skeleton (R)			Diffusion_brain_MRI
+25063	Mean FA in corticospinal tract on FA skeleton (L)			Diffusion_brain_MRI
+25064	Mean FA in medial lemniscus on FA skeleton (R)			Diffusion_brain_MRI
+25066	Mean FA in inferior cerebellar peduncle on FA skeleton (R)			Diffusion_brain_MRI
+25067	Mean FA in inferior cerebellar peduncle on FA skeleton (L)			Diffusion_brain_MRI
+25068	Mean FA in superior cerebellar peduncle on FA skeleton (R)			Diffusion_brain_MRI
+25069	Mean FA in superior cerebellar peduncle on FA skeleton (L)			Diffusion_brain_MRI
+25071	Mean FA in cerebral peduncle on FA skeleton (L)			Diffusion_brain_MRI
+25072	Mean FA in anterior limb of internal capsule on FA skeleton (R)			Diffusion_brain_MRI
+25073	Mean FA in anterior limb of internal capsule on FA skeleton (L)			Diffusion_brain_MRI
+25074	Mean FA in posterior limb of internal capsule on FA skeleton (R)			Diffusion_brain_MRI
+25075	Mean FA in posterior limb of internal capsule on FA skeleton (L)			Diffusion_brain_MRI
+25076	Mean FA in retrolenticular part of internal capsule on FA skeleton (R)			Diffusion_brain_MRI
+25077	Mean FA in retrolenticular part of internal capsule on FA skeleton (L)			Diffusion_brain_MRI
+25078	Mean FA in anterior corona radiata on FA skeleton (R)			Diffusion_brain_MRI
+25079	Mean FA in anterior corona radiata on FA skeleton (L)			Diffusion_brain_MRI
+25080	Mean FA in superior corona radiata on FA skeleton (R)			Diffusion_brain_MRI
+25081	Mean FA in superior corona radiata on FA skeleton (L)			Diffusion_brain_MRI
+25083	Mean FA in posterior corona radiata on FA skeleton (L)			Diffusion_brain_MRI
+25084	Mean FA in posterior thalamic radiation on FA skeleton (R)			Diffusion_brain_MRI
+25085	Mean FA in posterior thalamic radiation on FA skeleton (L)			Diffusion_brain_MRI
+25086	Mean FA in sagittal stratum on FA skeleton (R)			Diffusion_brain_MRI
+25087	Mean FA in sagittal stratum on FA skeleton (L)			Diffusion_brain_MRI
+25088	Mean FA in external capsule on FA skeleton (R)			Diffusion_brain_MRI
+25089	Mean FA in external capsule on FA skeleton (L)			Diffusion_brain_MRI
+25090	Mean FA in cingulum cingulate gyrus on FA skeleton (R)			Diffusion_brain_MRI
+25091	Mean FA in cingulum cingulate gyrus on FA skeleton (L)			Diffusion_brain_MRI
+25092	Mean FA in cingulum hippocampus on FA skeleton (R)			Diffusion_brain_MRI
+25093	Mean FA in cingulum hippocampus on FA skeleton (L)			Diffusion_brain_MRI
+25094	Mean FA in fornix cres+stria terminalis on FA skeleton (R)			Diffusion_brain_MRI
+25096	Mean FA in superior longitudinal fasciculus on FA skeleton (R)			Diffusion_brain_MRI
+25097	Mean FA in superior longitudinal fasciculus on FA skeleton (L)			Diffusion_brain_MRI
+25098	Mean FA in superior fronto-occipital fasciculus on FA skeleton (R)			Diffusion_brain_MRI
+25099	Mean FA in superior fronto-occipital fasciculus on FA skeleton (L)			Diffusion_brain_MRI
+25100	Mean FA in uncinate fasciculus on FA skeleton (R)			Diffusion_brain_MRI
+25101	Mean FA in uncinate fasciculus on FA skeleton (L)			Diffusion_brain_MRI
+25102	Mean FA in tapetum on FA skeleton (R)			Diffusion_brain_MRI
+25103	Mean FA in tapetum on FA skeleton (L)			Diffusion_brain_MRI
+25344	Mean ICVF in middle cerebellar peduncle on FA skeleton			Diffusion_brain_MRI
+25345	Mean ICVF in pontine crossing tract on FA skeleton			Diffusion_brain_MRI
+25346	Mean ICVF in genu of corpus callosum on FA skeleton			Diffusion_brain_MRI
+25347	Mean ICVF in body of corpus callosum on FA skeleton			Diffusion_brain_MRI
+25349	Mean ICVF in fornix on FA skeleton			Diffusion_brain_MRI
+25350	Mean ICVF in corticospinal tract on FA skeleton (R)			Diffusion_brain_MRI
+25351	Mean ICVF in corticospinal tract on FA skeleton (L)			Diffusion_brain_MRI
+25352	Mean ICVF in medial lemniscus on FA skeleton (R)			Diffusion_brain_MRI
+25353	Mean ICVF in medial lemniscus on FA skeleton (L)			Diffusion_brain_MRI
+25354	Mean ICVF in inferior cerebellar peduncle on FA skeleton (R)			Diffusion_brain_MRI
+25355	Mean ICVF in inferior cerebellar peduncle on FA skeleton (L)			Diffusion_brain_MRI
+25356	Mean ICVF in superior cerebellar peduncle on FA skeleton (R)			Diffusion_brain_MRI
+25357	Mean ICVF in superior cerebellar peduncle on FA skeleton (L)			Diffusion_brain_MRI
+25358	Mean ICVF in cerebral peduncle on FA skeleton (R)			Diffusion_brain_MRI
+25359	Mean ICVF in cerebral peduncle on FA skeleton (L)			Diffusion_brain_MRI
+25360	Mean ICVF in anterior limb of internal capsule on FA skeleton (R)			Diffusion_brain_MRI
+25361	Mean ICVF in anterior limb of internal capsule on FA skeleton (L)			Diffusion_brain_MRI
+25362	Mean ICVF in posterior limb of internal capsule on FA skeleton (R)			Diffusion_brain_MRI
+25363	Mean ICVF in posterior limb of internal capsule on FA skeleton (L)			Diffusion_brain_MRI
+25364	Mean ICVF in retrolenticular part of internal capsule on FA skeleton (R)			Diffusion_brain_MRI
+25365	Mean ICVF in retrolenticular part of internal capsule on FA skeleton (L)			Diffusion_brain_MRI
+25366	Mean ICVF in anterior corona radiata on FA skeleton (R)			Diffusion_brain_MRI
+25367	Mean ICVF in anterior corona radiata on FA skeleton (L)			Diffusion_brain_MRI
+25368	Mean ICVF in superior corona radiata on FA skeleton (R)			Diffusion_brain_MRI
+25369	Mean ICVF in superior corona radiata on FA skeleton (L)			Diffusion_brain_MRI
+25370	Mean ICVF in posterior corona radiata on FA skeleton (R)			Diffusion_brain_MRI
+25371	Mean ICVF in posterior corona radiata on FA skeleton (L)			Diffusion_brain_MRI
+25372	Mean ICVF in posterior thalamic radiation on FA skeleton (R)			Diffusion_brain_MRI
+25373	Mean ICVF in posterior thalamic radiation on FA skeleton (L)			Diffusion_brain_MRI
+25374	Mean ICVF in sagittal stratum on FA skeleton (R)			Diffusion_brain_MRI
+25375	Mean ICVF in sagittal stratum on FA skeleton (L)			Diffusion_brain_MRI
+25376	Mean ICVF in external capsule on FA skeleton (R)			Diffusion_brain_MRI
+25377	Mean ICVF in external capsule on FA skeleton (L)			Diffusion_brain_MRI
+25378	Mean ICVF in cingulum cingulate gyrus on FA skeleton (R)			Diffusion_brain_MRI
+25379	Mean ICVF in cingulum cingulate gyrus on FA skeleton (L)			Diffusion_brain_MRI
+25380	Mean ICVF in cingulum hippocampus on FA skeleton (R)			Diffusion_brain_MRI
+25381	Mean ICVF in cingulum hippocampus on FA skeleton (L)			Diffusion_brain_MRI
+25382	Mean ICVF in fornix cres+stria terminalis on FA skeleton (R)			Diffusion_brain_MRI
+25383	Mean ICVF in fornix cres+stria terminalis on FA skeleton (L)			Diffusion_brain_MRI
+25384	Mean ICVF in superior longitudinal fasciculus on FA skeleton (R)			Diffusion_brain_MRI
+25385	Mean ICVF in superior longitudinal fasciculus on FA skeleton (L)			Diffusion_brain_MRI
+25386	Mean ICVF in superior fronto-occipital fasciculus on FA skeleton (R)			Diffusion_brain_MRI
+25387	Mean ICVF in superior fronto-occipital fasciculus on FA skeleton (L)			Diffusion_brain_MRI
+25388	Mean ICVF in uncinate fasciculus on FA skeleton (R)			Diffusion_brain_MRI
+25389	Mean ICVF in uncinate fasciculus on FA skeleton (L)			Diffusion_brain_MRI
+25391	Mean ICVF in tapetum on FA skeleton (L)			Diffusion_brain_MRI
+25440	Mean ISOVF in middle cerebellar peduncle on FA skeleton			Diffusion_brain_MRI
+25441	Mean ISOVF in pontine crossing tract on FA skeleton			Diffusion_brain_MRI
+25443	Mean ISOVF in body of corpus callosum on FA skeleton			Diffusion_brain_MRI
+25445	Mean ISOVF in fornix on FA skeleton			Diffusion_brain_MRI
+25446	Mean ISOVF in corticospinal tract on FA skeleton (R)			Diffusion_brain_MRI
+25447	Mean ISOVF in corticospinal tract on FA skeleton (L)			Diffusion_brain_MRI
+25451	Mean ISOVF in inferior cerebellar peduncle on FA skeleton (L)			Diffusion_brain_MRI
+25452	Mean ISOVF in superior cerebellar peduncle on FA skeleton (R)			Diffusion_brain_MRI
+25453	Mean ISOVF in superior cerebellar peduncle on FA skeleton (L)			Diffusion_brain_MRI
+25457	Mean ISOVF in anterior limb of internal capsule on FA skeleton (L)			Diffusion_brain_MRI
+25458	Mean ISOVF in posterior limb of internal capsule on FA skeleton (R)			Diffusion_brain_MRI
+25460	Mean ISOVF in retrolenticular part of internal capsule on FA skeleton (R)			Diffusion_brain_MRI
+25461	Mean ISOVF in retrolenticular part of internal capsule on FA skeleton (L)			Diffusion_brain_MRI
+25462	Mean ISOVF in anterior corona radiata on FA skeleton (R)			Diffusion_brain_MRI
+25463	Mean ISOVF in anterior corona radiata on FA skeleton (L)			Diffusion_brain_MRI
+25464	Mean ISOVF in superior corona radiata on FA skeleton (R)			Diffusion_brain_MRI
+25465	Mean ISOVF in superior corona radiata on FA skeleton (L)			Diffusion_brain_MRI
+25467	Mean ISOVF in posterior corona radiata on FA skeleton (L)			Diffusion_brain_MRI
+25469	Mean ISOVF in posterior thalamic radiation on FA skeleton (L)			Diffusion_brain_MRI
+25470	Mean ISOVF in sagittal stratum on FA skeleton (R)			Diffusion_brain_MRI
+25471	Mean ISOVF in sagittal stratum on FA skeleton (L)			Diffusion_brain_MRI
+25473	Mean ISOVF in external capsule on FA skeleton (L)			Diffusion_brain_MRI
+25474	Mean ISOVF in cingulum cingulate gyrus on FA skeleton (R)			Diffusion_brain_MRI
+25475	Mean ISOVF in cingulum cingulate gyrus on FA skeleton (L)			Diffusion_brain_MRI
+25482	Mean ISOVF in superior fronto-occipital fasciculus on FA skeleton (R)			Diffusion_brain_MRI
+25483	Mean ISOVF in superior fronto-occipital fasciculus on FA skeleton (L)			Diffusion_brain_MRI
+25488	WA FA in tract acoustic radiation (L)			Diffusion_brain_MRI
+25489	WA FA in tract acoustic radiation (R)			Diffusion_brain_MRI
+25490	WA FA in tract anterior thalamic radiation (L)			Diffusion_brain_MRI
+25491	WA FA in tract anterior thalamic radiation (R)			Diffusion_brain_MRI
+25492	WA FA in tract cingulate gyrus part of cingulum (L)			Diffusion_brain_MRI
+25493	WA FA in tract cingulate gyrus part of cingulum (R)			Diffusion_brain_MRI
+25495	WA FA in tract parahippocampal part of cingulum (R)			Diffusion_brain_MRI
+25497	WA FA in tract corticospinal tract (R)			Diffusion_brain_MRI
+25498	WA FA in tract forceps major			Diffusion_brain_MRI
+25499	WA FA in tract forceps minor			Diffusion_brain_MRI
+25500	WA FA in tract inferior fronto-occipital fasciculus (L)			Diffusion_brain_MRI
+25501	WA FA in tract inferior fronto-occipital fasciculus (R)			Diffusion_brain_MRI
+25502	WA FA in tract inferior longitudinal fasciculus (L)			Diffusion_brain_MRI
+25503	WA FA in tract inferior longitudinal fasciculus (R)			Diffusion_brain_MRI
+25506	WA FA in tract medial lemniscus (R)			Diffusion_brain_MRI
+25507	WA FA in tract posterior thalamic radiation (L)			Diffusion_brain_MRI
+25508	WA FA in tract posterior thalamic radiation (R)			Diffusion_brain_MRI
+25509	WA FA in tract superior longitudinal fasciculus (L)			Diffusion_brain_MRI
+25511	WA FA in tract superior thalamic radiation (L)			Diffusion_brain_MRI
+25512	WA FA in tract superior thalamic radiation (R)			Diffusion_brain_MRI
+25513	WA FA in tract uncinate fasciculus (L)			Diffusion_brain_MRI
+25514	WA FA in tract uncinate fasciculus (R)			Diffusion_brain_MRI
+25515	WA MD in tract acoustic radiation (L)			Diffusion_brain_MRI
+25516	WA MD in tract acoustic radiation (R)			Diffusion_brain_MRI
+25517	WA MD in tract anterior thalamic radiation (L)			Diffusion_brain_MRI
+25519	WA MD in tract cingulate gyrus part of cingulum (L)			Diffusion_brain_MRI
+25520	WA MD in tract cingulate gyrus part of cingulum (R)			Diffusion_brain_MRI
+25521	WA MD in tract parahippocampal part of cingulum (L)			Diffusion_brain_MRI
+25523	WA MD in tract corticospinal tract (L)			Diffusion_brain_MRI
+25524	WA MD in tract corticospinal tract (R)			Diffusion_brain_MRI
+25525	WA MD in tract forceps major			Diffusion_brain_MRI
+25526	WA MD in tract forceps minor			Diffusion_brain_MRI
+25527	WA MD in tract inferior fronto-occipital fasciculus (L)			Diffusion_brain_MRI
+25528	WA MD in tract inferior fronto-occipital fasciculus (R)			Diffusion_brain_MRI
+25529	WA MD in tract inferior longitudinal fasciculus (L)			Diffusion_brain_MRI
+25530	WA MD in tract inferior longitudinal fasciculus (R)			Diffusion_brain_MRI
+25531	WA MD in tract middle cerebellar peduncle			Diffusion_brain_MRI
+25533	WA MD in tract medial lemniscus (R)			Diffusion_brain_MRI
+25536	WA MD in tract superior longitudinal fasciculus (L)			Diffusion_brain_MRI
+25538	WA MD in tract superior thalamic radiation (L)			Diffusion_brain_MRI
+25539	WA MD in tract superior thalamic radiation (R)			Diffusion_brain_MRI
+25540	WA MD in tract uncinate fasciculus (L)			Diffusion_brain_MRI
+25541	WA MD in tract uncinate fasciculus (R)			Diffusion_brain_MRI
+25542	WA MO in tract acoustic radiation (L)			Diffusion_brain_MRI
+25543	WA MO in tract acoustic radiation (R)			Diffusion_brain_MRI
+25544	WA MO in tract anterior thalamic radiation (L)			Diffusion_brain_MRI
+25545	WA MO in tract anterior thalamic radiation (R)			Diffusion_brain_MRI
+25548	WA MO in tract parahippocampal part of cingulum (L)			Diffusion_brain_MRI
+25549	WA MO in tract parahippocampal part of cingulum (R)			Diffusion_brain_MRI
+25551	WA MO in tract corticospinal tract (R)			Diffusion_brain_MRI
+25553	WA MO in tract forceps minor			Diffusion_brain_MRI
+25555	WA MO in tract inferior fronto-occipital fasciculus (R)			Diffusion_brain_MRI
+25558	WA MO in tract middle cerebellar peduncle			Diffusion_brain_MRI
+25560	WA MO in tract medial lemniscus (R)			Diffusion_brain_MRI
+25561	WA MO in tract posterior thalamic radiation (L)			Diffusion_brain_MRI
+25562	WA MO in tract posterior thalamic radiation (R)			Diffusion_brain_MRI
+25563	WA MO in tract superior longitudinal fasciculus (L)			Diffusion_brain_MRI
+25564	WA MO in tract superior longitudinal fasciculus (R)			Diffusion_brain_MRI
+25566	WA MO in tract superior thalamic radiation (R)			Diffusion_brain_MRI
+25570	WA L1 in tract acoustic radiation (R)			Diffusion_brain_MRI
+25571	WA L1 in tract anterior thalamic radiation (L)			Diffusion_brain_MRI
+25572	WA L1 in tract anterior thalamic radiation (R)			Diffusion_brain_MRI
+25578	WA L1 in tract corticospinal tract (R)			Diffusion_brain_MRI
+25579	WA L1 in tract forceps major			Diffusion_brain_MRI
+25580	WA L1 in tract forceps minor			Diffusion_brain_MRI
+25581	WA L1 in tract inferior fronto-occipital fasciculus (L)			Diffusion_brain_MRI
+25582	WA L1 in tract inferior fronto-occipital fasciculus (R)			Diffusion_brain_MRI
+25583	WA L1 in tract inferior longitudinal fasciculus (L)			Diffusion_brain_MRI
+25584	WA L1 in tract inferior longitudinal fasciculus (R)			Diffusion_brain_MRI
+25585	WA L1 in tract middle cerebellar peduncle			Diffusion_brain_MRI
+25589	WA L1 in tract posterior thalamic radiation (R)			Diffusion_brain_MRI
+25590	WA L1 in tract superior longitudinal fasciculus (L)			Diffusion_brain_MRI
+25591	WA L1 in tract superior longitudinal fasciculus (R)			Diffusion_brain_MRI
+25592	WA L1 in tract superior thalamic radiation (L)			Diffusion_brain_MRI
+25593	WA L1 in tract superior thalamic radiation (R)			Diffusion_brain_MRI
+25594	WA L1 in tract uncinate fasciculus (L)			Diffusion_brain_MRI
+25597	WA L2 in tract acoustic radiation (R)			Diffusion_brain_MRI
+25598	WA L2 in tract anterior thalamic radiation (L)			Diffusion_brain_MRI
+25599	WA L2 in tract anterior thalamic radiation (R)			Diffusion_brain_MRI
+25600	WA L2 in tract cingulate gyrus part of cingulum (L)			Diffusion_brain_MRI
+25601	WA L2 in tract cingulate gyrus part of cingulum (R)			Diffusion_brain_MRI
+25602	WA L2 in tract parahippocampal part of cingulum (L)			Diffusion_brain_MRI
+25604	WA L2 in tract corticospinal tract (L)			Diffusion_brain_MRI
+25605	WA L2 in tract corticospinal tract (R)			Diffusion_brain_MRI
+25606	WA L2 in tract forceps major			Diffusion_brain_MRI
+25607	WA L2 in tract forceps minor			Diffusion_brain_MRI
+25608	WA L2 in tract inferior fronto-occipital fasciculus (L)			Diffusion_brain_MRI
+25609	WA L2 in tract inferior fronto-occipital fasciculus (R)			Diffusion_brain_MRI
+25610	WA L2 in tract inferior longitudinal fasciculus (L)			Diffusion_brain_MRI
+25611	WA L2 in tract inferior longitudinal fasciculus (R)			Diffusion_brain_MRI
+25614	WA L2 in tract medial lemniscus (R)			Diffusion_brain_MRI
+25615	WA L2 in tract posterior thalamic radiation (L)			Diffusion_brain_MRI
+25617	WA L2 in tract superior longitudinal fasciculus (L)			Diffusion_brain_MRI
+25618	WA L2 in tract superior longitudinal fasciculus (R)			Diffusion_brain_MRI
+25619	WA L2 in tract superior thalamic radiation (L)			Diffusion_brain_MRI
+25621	WA L2 in tract uncinate fasciculus (L)			Diffusion_brain_MRI
+25622	WA L2 in tract uncinate fasciculus (R)			Diffusion_brain_MRI
+25624	WA L3 in tract acoustic radiation (R)			Diffusion_brain_MRI
+25625	WA L3 in tract anterior thalamic radiation (L)			Diffusion_brain_MRI
+25626	WA L3 in tract anterior thalamic radiation (R)			Diffusion_brain_MRI
+25627	WA L3 in tract cingulate gyrus part of cingulum (L)			Diffusion_brain_MRI
+25628	WA L3 in tract cingulate gyrus part of cingulum (R)			Diffusion_brain_MRI
+25633	WA L3 in tract forceps major			Diffusion_brain_MRI
+25634	WA L3 in tract forceps minor			Diffusion_brain_MRI
+25635	WA L3 in tract inferior fronto-occipital fasciculus (L)			Diffusion_brain_MRI
+25636	WA L3 in tract inferior fronto-occipital fasciculus (R)			Diffusion_brain_MRI
+25637	WA L3 in tract inferior longitudinal fasciculus (L)			Diffusion_brain_MRI
+25638	WA L3 in tract inferior longitudinal fasciculus (R)			Diffusion_brain_MRI
+25639	WA L3 in tract middle cerebellar peduncle			Diffusion_brain_MRI
+25640	WA L3 in tract medial lemniscus (L)			Diffusion_brain_MRI
+25641	WA L3 in tract medial lemniscus (R)			Diffusion_brain_MRI
+25642	WA L3 in tract posterior thalamic radiation (L)			Diffusion_brain_MRI
+25644	WA L3 in tract superior longitudinal fasciculus (L)			Diffusion_brain_MRI
+25646	WA L3 in tract superior thalamic radiation (L)			Diffusion_brain_MRI
+25647	WA L3 in tract superior thalamic radiation (R)			Diffusion_brain_MRI
+25648	WA L3 in tract uncinate fasciculus (L)			Diffusion_brain_MRI
+25649	WA L3 in tract uncinate fasciculus (R)			Diffusion_brain_MRI
+25650	WA ICVF in tract acoustic radiation (L)			Diffusion_brain_MRI
+25651	WA ICVF in tract acoustic radiation (R)			Diffusion_brain_MRI
+25652	WA ICVF in tract anterior thalamic radiation (L)			Diffusion_brain_MRI
+25653	WA ICVF in tract anterior thalamic radiation (R)			Diffusion_brain_MRI
+25654	WA ICVF in tract cingulate gyrus part of cingulum (L)			Diffusion_brain_MRI
+25655	WA ICVF in tract cingulate gyrus part of cingulum (R)			Diffusion_brain_MRI
+25656	WA ICVF in tract parahippocampal part of cingulum (L)			Diffusion_brain_MRI
+25657	WA ICVF in tract parahippocampal part of cingulum (R)			Diffusion_brain_MRI
+25658	WA ICVF in tract corticospinal tract (L)			Diffusion_brain_MRI
+25659	WA ICVF in tract corticospinal tract (R)			Diffusion_brain_MRI
+25660	WA ICVF in tract forceps major			Diffusion_brain_MRI
+25661	WA ICVF in tract forceps minor			Diffusion_brain_MRI
+25662	WA ICVF in tract inferior fronto-occipital fasciculus (L)			Diffusion_brain_MRI
+25663	WA ICVF in tract inferior fronto-occipital fasciculus (R)			Diffusion_brain_MRI
+25664	WA ICVF in tract inferior longitudinal fasciculus (L)			Diffusion_brain_MRI
+25665	WA ICVF in tract inferior longitudinal fasciculus (R)			Diffusion_brain_MRI
+25666	WA ICVF in tract middle cerebellar peduncle			Diffusion_brain_MRI
+25667	WA ICVF in tract medial lemniscus (L)			Diffusion_brain_MRI
+25668	WA ICVF in tract medial lemniscus (R)			Diffusion_brain_MRI
+25669	WA ICVF in tract posterior thalamic radiation (L)			Diffusion_brain_MRI
+25670	WA ICVF in tract posterior thalamic radiation (R)			Diffusion_brain_MRI
+25671	WA ICVF in tract superior longitudinal fasciculus (L)			Diffusion_brain_MRI
+25672	WA ICVF in tract superior longitudinal fasciculus (R)			Diffusion_brain_MRI
+25673	WA ICVF in tract superior thalamic radiation (L)			Diffusion_brain_MRI
+25674	WA ICVF in tract superior thalamic radiation (R)			Diffusion_brain_MRI
+25675	WA ICVF in tract uncinate fasciculus (L)			Diffusion_brain_MRI
+25676	WA ICVF in tract uncinate fasciculus (R)			Diffusion_brain_MRI
+25679	WA OD in tract anterior thalamic radiation (L)			Diffusion_brain_MRI
+25680	WA OD in tract anterior thalamic radiation (R)			Diffusion_brain_MRI
+25681	WA OD in tract cingulate gyrus part of cingulum (L)			Diffusion_brain_MRI
+25682	WA OD in tract cingulate gyrus part of cingulum (R)			Diffusion_brain_MRI
+25684	WA OD in tract parahippocampal part of cingulum (R)			Diffusion_brain_MRI
+25685	WA OD in tract corticospinal tract (L)			Diffusion_brain_MRI
+25687	WA OD in tract forceps major			Diffusion_brain_MRI
+25689	WA OD in tract inferior fronto-occipital fasciculus (L)			Diffusion_brain_MRI
+25690	WA OD in tract inferior fronto-occipital fasciculus (R)			Diffusion_brain_MRI
+25691	WA OD in tract inferior longitudinal fasciculus (L)			Diffusion_brain_MRI
+25692	WA OD in tract inferior longitudinal fasciculus (R)			Diffusion_brain_MRI
+25694	WA OD in tract medial lemniscus (L)			Diffusion_brain_MRI
+25695	WA OD in tract medial lemniscus (R)			Diffusion_brain_MRI
+25696	WA OD in tract posterior thalamic radiation (L)			Diffusion_brain_MRI
+25697	WA OD in tract posterior thalamic radiation (R)			Diffusion_brain_MRI
+25698	WA OD in tract superior longitudinal fasciculus (L)			Diffusion_brain_MRI
+25699	WA OD in tract superior longitudinal fasciculus (R)			Diffusion_brain_MRI
+25700	WA OD in tract superior thalamic radiation (L)			Diffusion_brain_MRI
+25701	WA OD in tract superior thalamic radiation (R)			Diffusion_brain_MRI
+25702	WA OD in tract uncinate fasciculus (L)			Diffusion_brain_MRI
+25703	WA OD in tract uncinate fasciculus (R)			Diffusion_brain_MRI
+25704	WA ISOVF in tract acoustic radiation (L)			Diffusion_brain_MRI
+25705	WA ISOVF in tract acoustic radiation (R)			Diffusion_brain_MRI
+25707	WA ISOVF in tract anterior thalamic radiation (R)			Diffusion_brain_MRI
+25708	WA ISOVF in tract cingulate gyrus part of cingulum (L)			Diffusion_brain_MRI
+25709	WA ISOVF in tract cingulate gyrus part of cingulum (R)			Diffusion_brain_MRI
+25712	WA ISOVF in tract corticospinal tract (L)			Diffusion_brain_MRI
+25713	WA ISOVF in tract corticospinal tract (R)			Diffusion_brain_MRI
+25716	WA ISOVF in tract inferior fronto-occipital fasciculus (L)			Diffusion_brain_MRI
+25717	WA ISOVF in tract inferior fronto-occipital fasciculus (R)			Diffusion_brain_MRI
+25718	WA ISOVF in tract inferior longitudinal fasciculus (L)			Diffusion_brain_MRI
+25719	WA ISOVF in tract inferior longitudinal fasciculus (R)			Diffusion_brain_MRI
+25723	WA ISOVF in tract posterior thalamic radiation (L)			Diffusion_brain_MRI
+25724	WA ISOVF in tract posterior thalamic radiation (R)			Diffusion_brain_MRI
+25725	WA ISOVF in tract superior longitudinal fasciculus (L)			Diffusion_brain_MRI
+25726	WA ISOVF in tract superior longitudinal fasciculus (R)			Diffusion_brain_MRI
+25727	WA ISOVF in tract superior thalamic radiation (L)			Diffusion_brain_MRI
+25728	WA ISOVF in tract superior thalamic radiation (R)			Diffusion_brain_MRI
+25729	WA ISOVF in tract uncinate fasciculus (L)			Diffusion_brain_MRI
+25730	WA ISOVF in tract uncinate fasciculus (R)			Diffusion_brain_MRI
+25026	Median T2star in thalamus (L)			Susceptibility_weighted_brain_MRI
+25027	Median T2star in thalamus (R)			Susceptibility_weighted_brain_MRI
+25028	Median T2star in caudate (L)			Susceptibility_weighted_brain_MRI
+25029	Median T2star in caudate (R)			Susceptibility_weighted_brain_MRI
+25030	Median T2star in putamen (L)			Susceptibility_weighted_brain_MRI
+25031	Median T2star in putamen (R)			Susceptibility_weighted_brain_MRI
+25032	Median T2star in pallidum (L)			Susceptibility_weighted_brain_MRI
+25033	Median T2star in pallidum (R)			Susceptibility_weighted_brain_MRI
+25034	Median T2star in hippocampus (L)			Susceptibility_weighted_brain_MRI
+25036	Median T2star in amygdala (L)			Susceptibility_weighted_brain_MRI
+25037	Median T2star in amygdala (R)			Susceptibility_weighted_brain_MRI
+25039	Median T2star in accumbens (R)			Susceptibility_weighted_brain_MRI
+25000	Volumetric scaling from T1 head image to standard space			T1_structural_brain_MRI
+25001	Vol. of peripheral cortical grey matter (normalised for head size)			T1_structural_brain_MRI
+25002	Vol. of peripheral cortical grey matter			T1_structural_brain_MRI
+25003	Vol. of ventricular cerebrospinal fluid (normalised for head size)			T1_structural_brain_MRI
+25004	Vol. of ventricular cerebrospinal fluid			T1_structural_brain_MRI
+25005	Vol. of grey matter (normalised for head size)			T1_structural_brain_MRI
+25006	Vol. of grey matter			T1_structural_brain_MRI
+25007	Vol. of white matter (normalised for head size)			T1_structural_brain_MRI
+25008	Vol. of white matter			T1_structural_brain_MRI
+25009	Vol. of brain, grey+white matter (normalised for head size)			T1_structural_brain_MRI
+25010	Vol. of brain, grey+white matter			T1_structural_brain_MRI
+25011	Vol. of thalamus (L)			T1_structural_brain_MRI
+25012	Vol. of thalamus (R)			T1_structural_brain_MRI
+25013	Vol. of caudate (L)			T1_structural_brain_MRI
+25015	Vol. of putamen (L)			T1_structural_brain_MRI
+25016	Vol. of putamen (R)			T1_structural_brain_MRI
+25017	Vol. of pallidum (L)			T1_structural_brain_MRI
+25018	Vol. of pallidum (R)			T1_structural_brain_MRI
+25019	Vol. of hippocampus (L)			T1_structural_brain_MRI
+25021	Vol. of amygdala (L)			T1_structural_brain_MRI
+25022	Vol. of amygdala (R)			T1_structural_brain_MRI
+25023	Vol. of accumbens (L)			T1_structural_brain_MRI
+25024	Vol. of accumbens (R)			T1_structural_brain_MRI
+25025	Vol. of brain stem + 4th ventricle			T1_structural_brain_MRI
+25734	Inverted signal-to-noise ratio in T1			T1_structural_brain_MRI
+25782	Vol. of grey matter in Frontal Pole (L)			T1_structural_brain_MRI
+25784	Vol. of grey matter in Insular Cortex (L)			T1_structural_brain_MRI
+25785	Vol. of grey matter in Insular Cortex (R)			T1_structural_brain_MRI
+25786	Vol. of grey matter in Superior Frontal Gyrus (L)			T1_structural_brain_MRI
+25787	Vol. of grey matter in Superior Frontal Gyrus (R)			T1_structural_brain_MRI
+25788	Vol. of grey matter in Middle Frontal Gyrus (L)			T1_structural_brain_MRI
+25789	Vol. of grey matter in Middle Frontal Gyrus (R)			T1_structural_brain_MRI
+25791	Vol. of grey matter in Inferior Frontal Gyrus, pars triangularis (R)			T1_structural_brain_MRI
+25793	Vol. of grey matter in Inferior Frontal Gyrus, pars opercularis (R)			T1_structural_brain_MRI
+25794	Vol. of grey matter in Precentral Gyrus (L)			T1_structural_brain_MRI
+25795	Vol. of grey matter in Precentral Gyrus (R)			T1_structural_brain_MRI
+25796	Vol. of grey matter in Temporal Pole (L)			T1_structural_brain_MRI
+25797	Vol. of grey matter in Temporal Pole (R)			T1_structural_brain_MRI
+25798	Vol. of grey matter in Superior Temporal Gyrus, anterior division (L)			T1_structural_brain_MRI
+25799	Vol. of grey matter in Superior Temporal Gyrus, anterior division (R)			T1_structural_brain_MRI
+25800	Vol. of grey matter in Superior Temporal Gyrus, posterior division (L)			T1_structural_brain_MRI
+25801	Vol. of grey matter in Superior Temporal Gyrus, posterior division (R)			T1_structural_brain_MRI
+25803	Vol. of grey matter in Middle Temporal Gyrus, anterior division (R)			T1_structural_brain_MRI
+25805	Vol. of grey matter in Middle Temporal Gyrus, posterior division (R)			T1_structural_brain_MRI
+25806	Vol. of grey matter in Middle Temporal Gyrus, temporooccipital part (L)			T1_structural_brain_MRI
+25807	Vol. of grey matter in Middle Temporal Gyrus, temporooccipital part (R)			T1_structural_brain_MRI
+25808	Vol. of grey matter in Inferior Temporal Gyrus, anterior division (L)			T1_structural_brain_MRI
+25809	Vol. of grey matter in Inferior Temporal Gyrus, anterior division (R)			T1_structural_brain_MRI
+25810	Vol. of grey matter in Inferior Temporal Gyrus, posterior division (L)			T1_structural_brain_MRI
+25812	Vol. of grey matter in Inferior Temporal Gyrus, temporooccipital part (L)			T1_structural_brain_MRI
+25813	Vol. of grey matter in Inferior Temporal Gyrus, temporooccipital part (R)			T1_structural_brain_MRI
+25815	Vol. of grey matter in Postcentral Gyrus (R)			T1_structural_brain_MRI
+25817	Vol. of grey matter in Superior Parietal Lobule (R)			T1_structural_brain_MRI
+25818	Vol. of grey matter in Supramarginal Gyrus, anterior division (L)			T1_structural_brain_MRI
+25820	Vol. of grey matter in Supramarginal Gyrus, posterior division (L)			T1_structural_brain_MRI
+25822	Vol. of grey matter in Angular Gyrus (L)			T1_structural_brain_MRI
+25825	Vol. of grey matter in Lateral Occipital Cortex, superior division (R)			T1_structural_brain_MRI
+25827	Vol. of grey matter in Lateral Occipital Cortex, inferior division (R)			T1_structural_brain_MRI
+25830	Vol. of grey matter in Frontal Medial Cortex (L)			T1_structural_brain_MRI
+25833	Vol. of grey matter in Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex) (R)			T1_structural_brain_MRI
+25834	Vol. of grey matter in Subcallosal Cortex (L)			T1_structural_brain_MRI
+25835	Vol. of grey matter in Subcallosal Cortex (R)			T1_structural_brain_MRI
+25837	Vol. of grey matter in Paracingulate Gyrus (R)			T1_structural_brain_MRI
+25838	Vol. of grey matter in Cingulate Gyrus, anterior division (L)			T1_structural_brain_MRI
+25839	Vol. of grey matter in Cingulate Gyrus, anterior division (R)			T1_structural_brain_MRI
+25840	Vol. of grey matter in Cingulate Gyrus, posterior division (L)			T1_structural_brain_MRI
+25841	Vol. of grey matter in Cingulate Gyrus, posterior division (R)			T1_structural_brain_MRI
+25842	Vol. of grey matter in Precuneous Cortex (L)			T1_structural_brain_MRI
+25845	Vol. of grey matter in Cuneal Cortex (R)			T1_structural_brain_MRI
+25846	Vol. of grey matter in Frontal Orbital Cortex (L)			T1_structural_brain_MRI
+25847	Vol. of grey matter in Frontal Orbital Cortex (R)			T1_structural_brain_MRI
+25848	Vol. of grey matter in Parahippocampal Gyrus, anterior division (L)			T1_structural_brain_MRI
+25849	Vol. of grey matter in Parahippocampal Gyrus, anterior division (R)			T1_structural_brain_MRI
+25850	Vol. of grey matter in Parahippocampal Gyrus, posterior division (L)			T1_structural_brain_MRI
+25851	Vol. of grey matter in Parahippocampal Gyrus, posterior division (R)			T1_structural_brain_MRI
+25853	Vol. of grey matter in Lingual Gyrus (R)			T1_structural_brain_MRI
+25854	Vol. of grey matter in Temporal Fusiform Cortex, anterior division (L)			T1_structural_brain_MRI
+25856	Vol. of grey matter in Temporal Fusiform Cortex, posterior division (L)			T1_structural_brain_MRI
+25857	Vol. of grey matter in Temporal Fusiform Cortex, posterior division (R)			T1_structural_brain_MRI
+25859	Vol. of grey matter in Temporal Occipital Fusiform Cortex (R)			T1_structural_brain_MRI
+25860	Vol. of grey matter in Occipital Fusiform Gyrus (L)			T1_structural_brain_MRI
+25861	Vol. of grey matter in Occipital Fusiform Gyrus (R)			T1_structural_brain_MRI
+25862	Vol. of grey matter in Frontal Operculum Cortex (L)			T1_structural_brain_MRI
+25864	Vol. of grey matter in Central Opercular Cortex (L)			T1_structural_brain_MRI
+25865	Vol. of grey matter in Central Opercular Cortex (R)			T1_structural_brain_MRI
+25866	Vol. of grey matter in Parietal Operculum Cortex (L)			T1_structural_brain_MRI
+25867	Vol. of grey matter in Parietal Operculum Cortex (R)			T1_structural_brain_MRI
+25868	Vol. of grey matter in Planum Polare (L)			T1_structural_brain_MRI
+25869	Vol. of grey matter in Planum Polare (R)			T1_structural_brain_MRI
+25870	Vol. of grey matter in Heschl's Gyrus (includes H1 and H2) (L)			T1_structural_brain_MRI
+25871	Vol. of grey matter in Heschl's Gyrus (includes H1 and H2) (R)			T1_structural_brain_MRI
+25872	Vol. of grey matter in Planum Temporale (L)			T1_structural_brain_MRI
+25873	Vol. of grey matter in Planum Temporale (R)			T1_structural_brain_MRI
+25874	Vol. of grey matter in Supracalcarine Cortex (L)			T1_structural_brain_MRI
+25875	Vol. of grey matter in Supracalcarine Cortex (R)			T1_structural_brain_MRI
+25877	Vol. of grey matter in Occipital Pole (R)			T1_structural_brain_MRI
+25878	Vol. of grey matter in Thalamus (L)			T1_structural_brain_MRI
+25879	Vol. of grey matter in Thalamus (R)			T1_structural_brain_MRI
+25880	Vol. of grey matter in Caudate (L)			T1_structural_brain_MRI
+25881	Vol. of grey matter in Caudate (R)			T1_structural_brain_MRI
+25887	Vol. of grey matter in Hippocampus (R)			T1_structural_brain_MRI
+25888	Vol. of grey matter in Amygdala (L)			T1_structural_brain_MRI
+25891	Vol. of grey matter in Ventral Striatum (R)			T1_structural_brain_MRI
+25892	Vol. of grey matter in Brain-Stem			T1_structural_brain_MRI
+25893	Vol. of grey matter in I-IV Cerebellum (L)			T1_structural_brain_MRI
+25894	Vol. of grey matter in I-IV Cerebellum (R)			T1_structural_brain_MRI
+25895	Vol. of grey matter in V Cerebellum (L)			T1_structural_brain_MRI
+25896	Vol. of grey matter in V Cerebellum (R)			T1_structural_brain_MRI
+25897	Vol. of grey matter in VI Cerebellum (L)			T1_structural_brain_MRI
+25898	Vol. of grey matter in Vermis VI Cerebellum			T1_structural_brain_MRI
+25899	Vol. of grey matter in VI Cerebellum (R)			T1_structural_brain_MRI
+25903	Vol. of grey matter in Crus II Cerebellum (L)			T1_structural_brain_MRI
+25904	Vol. of grey matter in Vermis Crus II Cerebellum			T1_structural_brain_MRI
+25906	Vol. of grey matter in VIIb Cerebellum (L)			T1_structural_brain_MRI
+25907	Vol. of grey matter in Vermis VIIb Cerebellum			T1_structural_brain_MRI
+25908	Vol. of grey matter in VIIb Cerebellum (R)			T1_structural_brain_MRI
+25909	Vol. of grey matter in VIIIa Cerebellum (L)			T1_structural_brain_MRI
+25910	Vol. of grey matter in Vermis VIIIa Cerebellum			T1_structural_brain_MRI
+25911	Vol. of grey matter in VIIIa Cerebellum (R)			T1_structural_brain_MRI
+25912	Vol. of grey matter in VIIIb Cerebellum (L)			T1_structural_brain_MRI
+25914	Vol. of grey matter in VIIIb Cerebellum (R)			T1_structural_brain_MRI
+25915	Vol. of grey matter in IX Cerebellum (L)			T1_structural_brain_MRI
+25916	Vol. of grey matter in Vermis IX Cerebellum			T1_structural_brain_MRI
+25917	Vol. of grey matter in IX Cerebellum (R)			T1_structural_brain_MRI
+25919	Vol. of grey matter in Vermis X Cerebellum			T1_structural_brain_MRI
+25920	Vol. of grey matter in X Cerebellum (R)			T1_structural_brain_MRI

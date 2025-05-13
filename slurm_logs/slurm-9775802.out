@@ -1,0 +1,10 @@
+[1] "analysis_name: 05_brain_mri"
+[1] "start source /net/bmc-lab4/data/kellis/users/az109/ukb21942 paths.sh"
+[1] "start source /net/bmc-lab4/data/kellis/users/az109/ukb21942 /helpers/functions.R"
+[1] "finish source"
+[1] "script_dir: /net/bmc-lab4/data/kellis/users/az109/ukb21942/pheno/05_brain_mri"
+[1] "phe_name: /net/bmc-lab4/data/kellis/users/az109/ukb21942/pheno"
+[1] "tail pheno df"
+[1] 488377     13
+Error: cannot allocate vector of size 1777.1 Gb
+Execution halted
